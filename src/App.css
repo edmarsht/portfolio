@@ -6,12 +6,34 @@
 }
 
 body {
-  background: blue;
+  background: #dcdcdc;
+  /* background: rgba(148,187,233,1) 100%; */
 }
 
 a {
   color: unset;
   text-decoration: none;
+}
+
+.gradient__bg {
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, rgba(197, 38, 180, 1) 1%, rgba(46, 12, 42, 1) 73%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, rgba(197, 38, 180, 1) 1%, rgba(46, 12, 42, 1) 73%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, rgba(197, 38, 180, 1) 1%, rgba(46, 12, 42, 1) 73%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2E0C2A', endColorstr='#C526B4', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, rgba(197, 38, 180, 1) 1%, rgba(46, 12, 42, 1) 73%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(197, 38, 180, 1) 1%, rgba(46, 12, 42, 1) 73%);
 }
 
 .gradient__text {
@@ -24,9 +46,9 @@ a {
 }
 
 .section__padding {
-  padding: 4rem 6rem 2rem 6rem;
+  padding: 3rem 6rem 3rem 6rem;
 }
 
 .section__margin {
-  margin: 3rem 6rem 4rem 6rem;
+  margin: 3rem 6rem 3rem 6rem;
 }

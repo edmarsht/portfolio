@@ -1,23 +1,14 @@
-import './App.css';
-import { Footer } from "./containers";
+import "./App.css";
+import { Navbar } from "./components";
+import { Footer, Header } from "./containers";
+
 function App() {
   return (
     <div className="App">
-      <h1>l</h1>
-      <h1>l</h1>
-      <h1>l</h1>
-      <h1>l</h1>
-      <h1>l</h1>
-      <h1>l</h1>
-      <h1>l</h1>
-      <h1>l</h1>
-      <h1>l</h1>
-      <h1>l</h1>
-      <h1>l</h1>
-      <h1>l</h1>
-      <h1>l</h1>
-      <h1>l</h1>
-      <h1>l</h1>
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
       <Footer />
     </div>
   );
