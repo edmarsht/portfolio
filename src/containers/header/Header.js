@@ -17,10 +17,12 @@ function Header() {
           <h3>Contact</h3>
         </div>
       </div>
-
-      <div className="portfolio__header-image">
-        <img src={coding} alt="ai" />
+      <div>
+        <h1>#Photo de moiiiiiiiiiiiiiiiiiiiiiii </h1>
       </div>
+      {/* <div className="portfolio__header-image">
+        <img src={coding} alt="ai" />
+      </div> */}
     </div>
   );
 }

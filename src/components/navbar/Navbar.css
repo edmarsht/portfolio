@@ -5,7 +5,6 @@
   align-items: center;
   font-family: var(--font-family);
   padding: 2rem 6rem;
-
 }
 
 .portfolio__navbar-menu {
@@ -17,9 +16,9 @@
 }
 
 .portfolio__navbar-logo h3 {
-    margin-right: 1rem;
-    color: rgba(197, 38, 180, 1);
-  }
+  margin-right: 1rem;
+  color: rgba(197, 38, 180, 1);
+}
 
 .portfolio__navbar-logo {
   display: flex;
@@ -30,11 +29,9 @@
 }
 
 .portfolio__navbar-logo img {
-    width: 30px;
-    margin-right: 1rem;
+  width: 30px;
+  margin-right: 1rem;
 }
-
-
 
 .portfolio__navbar-logo h3 {
   margin-right: 1rem;

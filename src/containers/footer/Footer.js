@@ -4,7 +4,7 @@ import logo from "../../assets/logo.svg";
 
 function Footer() {
   return (
-    <div className="hook__footer section__padding">
+    <div className="hook__footer section__padding ">
       <div className="hook__container-text">
         <h1 className="gradient__text">
           Do you want to step in to the future before others
