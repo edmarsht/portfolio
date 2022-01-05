@@ -1,6 +1,9 @@
 import React from "react";
 import "./Header.css";
-import coding from "../../assets/coding.svg";
+// import launching from "../../assets/launching.svg";
+// import adventure from "../../assets/adventure.svg";
+// import wire from "../../assets/wire.svg";
+import work from "../../assets/work.svg";
 
 function Header() {
   return (
@@ -11,18 +14,15 @@ function Header() {
           <h2>Software engineering developer</h2>
         </div>
         <div className="portfolio__header-container-menu">
-          <h3>About me</h3>
-          <h3>Project</h3>
-          <h3>Résumé</h3>
-          <h3>Contact</h3>
+          <button>About me</button>
+          <button>Project</button>
+          <button> Résumé</button>
+          <button>Contact</button>
         </div>
       </div>
-      <div>
-        <h1>#Photo de moiiiiiiiiiiiiiiiiiiiiiii </h1>
+      <div className="portfolio__header-image">
+        <img src={work} alt="ai" />
       </div>
-      {/* <div className="portfolio__header-image">
-        <img src={coding} alt="ai" />
-      </div> */}
     </div>
   );
 }

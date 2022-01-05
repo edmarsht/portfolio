@@ -3,41 +3,49 @@
   flex-direction: row;
   justify-content: space-between;
   font-family: var(--font-family);
-  padding-bottom: 22rem;
+  padding-top: 8rem;
+  padding-bottom: 3.5rem;
 }
 
 .portfolio__header-container {
   display: flex;
   flex: 1;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   color: rgb(82, 62, 80);
+  margin-right: 2rem;
 }
 
 .portfolio__header-container-title {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .portfolio__header-container-title h1 {
   font-family: var(--font-family2);
-  font-size: 86px;
+  font-size: 62px;
+  margin-bottom: 1rem;
 }
 
 .portfolio__header-container-title h2 {
   text-align: center;
   font-family: var(--font-family3);
   font-weight: lighter;
+  font-size: 22px;
 }
 
-
 .portfolio__header-container-menu {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
+  justify-content: center;
   font-family: var(--font-family3);
 }
 
-.portfolio__header-container-menu h3 {
-  margin-bottom: 1rem;
+.portfolio__header-container-menu button {
+  margin-bottom: 1.5rem;
+  width: 250px;
 }
 
 .portfolio__header-image {
@@ -49,5 +57,53 @@
 
 .portfolio__header-image img {
   width: 100%;
-  height: 100%;
 }
+
+button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #523e50;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #523e50;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+
+
+
+@media screen and (max-width: 950px) {
+    .portfolio__header {
+        flex-direction: column;
+        padding-top: 8rem;
+        padding-bottom: 10rem;
+      }
+
+      .portfolio__header-container {
+        margin-bottom: 4rem;
+      }
+  }
+
+@media screen and (max-width: 470px) {
+    .portfolio__header-container-title h1 {
+        font-size: 52px;
+      }
+  }
