@@ -94,11 +94,16 @@ button:active {
     .portfolio__header {
         flex-direction: column;
         padding-top: 8rem;
-        padding-bottom: 10rem;
+        padding-bottom: 6rem;
       }
 
       .portfolio__header-container {
         margin-bottom: 4rem;
+      }
+
+      .portfolio__header-container {
+        margin-right: 0;
+   
       }
   }
 
@@ -106,4 +111,8 @@ button:active {
     .portfolio__header-container-title h1 {
         font-size: 52px;
       }
+      .portfolio__header {
+        padding-top: 6rem;
+      }
+
   }
