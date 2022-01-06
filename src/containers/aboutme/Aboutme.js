@@ -11,7 +11,7 @@ function Aboutme() {
         </div>
         <div className="portfolio__aboutme-container-text">
           <h3>Front end developer</h3>
-          <h1>The possibilities are beyond</h1>
+          <h1>About Me</h1>
           <p>
             « Texte » est issu du mot latin « textum », dérivé du verbe « texere
             » qui signifie « tisser ». Le mot s'applique à l'entrelacement des

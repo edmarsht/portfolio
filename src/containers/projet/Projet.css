@@ -1,0 +1,30 @@
+.portfolio__projet-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family3);
+
+}
+
+.portfolio__projet-container-text {
+    color: #523e50;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.portfolio__projet-container-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.portfolio__projet-container-text p {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    line-height: 25px;
+}
+
+.portfolio__projet-container-projets {
+    display: flex;
+    flex-direction: row;
+}
