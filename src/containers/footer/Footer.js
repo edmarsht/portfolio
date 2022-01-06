@@ -1,20 +1,19 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../../assets/logo.svg";
 
 function Footer() {
   return (
     <div className="hook__footer section__padding ">
       <div className="hook__container-text">
         <h1 className="gradient__text">
-          Do you want to step in to the future before others
+        Le plus dur c'est de le faire, ce n'est pas d'y penser.
         </h1>
-        <button className="hook__footer_button"> Hover me</button>
+        <button className="hook__footer_button">Contact</button>
       </div>
       <div className="hook__container-details">
         <div className="hook__container-details-1">
-          <img src={logo} alt="logo" />
-          <p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
+          <h1>Edmarsht</h1>
+          <p>Paris 75017, All Rights Reserved</p>
         </div>
         <div className="hook__container-details-2">
           <h4>Links</h4>
@@ -31,13 +30,13 @@ function Footer() {
         </div>
         <div className="hook__container-details-4">
           <h4>Get in touch</h4>
-          <p>Crechterwoord K12 182 DK Alknjkcb</p>
-          <p>085-132567</p>
-          <p>info@payme.net</p>
+          <p>Paris, 75017</p>
+          <p>(+33) 6 27 13 57 23</p>
+          <p>edtoulet@gmail.com</p>
         </div>
       </div>
       <div className="div"></div>
-      <h5 className="hook__container-right">© 2021 HOOK. All rights reserved.</h5>
+      <h5 className="hook__container-right">© 2022 Edouard Toulet. All rights reserved.</h5>
     </div>
   );
 }

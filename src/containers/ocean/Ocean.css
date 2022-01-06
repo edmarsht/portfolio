@@ -1,7 +1,14 @@
 .portfolio__container-img img {
   width: 35px;
+  animation: arrowBlink 1s infinite;
   margin-left: 2rem;
   filter: invert(25%) sepia(21%) saturate(602%) hue-rotate(256deg) brightness(89%) contrast(86%);
+}
+
+@keyframes arrowBlink {
+  100% {
+    opacity: 0;
+  }
 }
 
 .bounce-top {

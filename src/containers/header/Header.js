@@ -1,8 +1,5 @@
 import React from "react";
 import "./Header.css";
-// import launching from "../../assets/launching.svg";
-// import adventure from "../../assets/adventure.svg";
-// import wire from "../../assets/wire.svg";
 import work from "../../assets/work.svg";
 
 function Header() {
@@ -10,11 +7,13 @@ function Header() {
     <div className="portfolio__header section__padding">
       <div className="portfolio__header-container">
         <div className="portfolio__header-container-title">
-          <h1>Edouard Toulet </h1>
+          <h1 className="container">
+            Edouard  <p className="highlight"> Toulet</p>
+          </h1>
           <h2>Software engineering developer</h2>
         </div>
         <div className="portfolio__header-container-menu">
-          <button>About me</button>
+          <button><a href="#aboutme"> About me</a></button>
           <button>Project</button>
           <button> Résumé</button>
           <button>Contact</button>

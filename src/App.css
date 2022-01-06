@@ -6,7 +6,7 @@
 }
 
 body {
-  background: rgba(204, 230, 255, 1);
+  background: red;
 }
 
 a {
@@ -15,7 +15,6 @@ a {
 }
 
 .gradient__bg {
-  background-color: #aeffe8;
   background-image: linear-gradient(180deg, #aeffe8 0%, #c2cdff 100%);
 }
 

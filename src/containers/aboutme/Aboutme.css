@@ -1,0 +1,53 @@
+.portfolio__aboutme {
+  background-color: #c2cdff;
+}
+
+.portfolio__aboutme-container {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.portfolio__aboutme-container-photo {
+  flex: 1;
+}
+
+.portfolio__aboutme-container-photo img {
+  width: 80%;
+  height: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: #aeffe8 -5px 5px, #aeffe8 -10px 10px, #aeffe8 -15px 15px,
+    #aeffe8 -20px 20px, #aeffe8 -25px 25px;
+}
+
+.portfolio__aboutme-container-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  font-family: var(--font-family3);
+}
+
+.portfolio__aboutme-container-text h3 {
+  /* color: #aeffe8; */
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #523e50;
+}
+.portfolio__aboutme-container-text h1 {
+  font-weight: bold;
+  color: #aeffe8;
+  margin-bottom: 1rem;
+  font-size: 40px;
+}
+.portfolio__aboutme-container-text p {
+  color: #523e50;
+}
+
+.portfolio__aboutme-container-text h4 {
+  color: #523e50;
+  margin-top: 2.5rem;
+}

@@ -5,10 +5,9 @@ import arrowback from "../../assets/arrowback.svg";
 
 function Ocean() {
   return (
-      <div className="container">
+      <div className="portfolio__container">
 <div className="portfolio__container-img bounce-top">
 <img src={arrowback} alt="ai" />
-
 </div>
     <div class="footer-social-links">
       <a href="#" title="Facebook" target="_blank">

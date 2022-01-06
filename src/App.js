@@ -1,6 +1,6 @@
 import "./App.css";
 import { Navbar } from "./components";
-import { Footer, Header, Ocean } from "./containers";
+import { Aboutme, Footer, Header, Ocean } from "./containers";
 
 function App() {
   return (
@@ -9,8 +9,8 @@ function App() {
         <Navbar />
         <Header />
         <Ocean />
-
       </div>
+        <Aboutme />
       <Footer />
     </div>
   );
