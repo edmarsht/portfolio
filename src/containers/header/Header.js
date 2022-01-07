@@ -1,7 +1,6 @@
 import React from "react";
 import "./Header.css";
-import work from "../../assets/work.svg";
-import edouard from "../../assets/edouard.png";
+import edouard4 from "../../assets/edouard4.png";
 
 function Header() {
   return (
@@ -21,7 +20,7 @@ function Header() {
         </div>
       </div>
       <div className="portfolio__header-image">
-        <img src={edouard} alt="ai" />
+        <img src={edouard4} alt="ai" />
       </div>
     </div>
   );

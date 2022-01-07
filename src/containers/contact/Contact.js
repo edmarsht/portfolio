@@ -1,10 +1,12 @@
 import React from 'react'
 import "./Contact.css"
+import edouard5 from "../../assets/edouard5.png";
+
 
 function Contact() {
     return (
-        <div>
-            <h1>contact section</h1>
+        <div className="portfolio__contact">
+            <img src={edouard5} alt="" />
         </div>
     )
 }
