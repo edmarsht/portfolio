@@ -1,6 +1,6 @@
 .portfolio__container-img img {
   width: 35px;
-  animation: arrowBlink 1s infinite;
+  animation: arrowBlink 1.5s infinite;
   margin-left: 2rem;
   filter: invert(25%) sepia(21%) saturate(602%) hue-rotate(256deg) brightness(89%) contrast(86%);
 }
