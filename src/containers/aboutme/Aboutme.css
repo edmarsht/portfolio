@@ -82,12 +82,12 @@
 }
 
 .portfolio__aboutme-container-yapero {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-    align-content: center;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-content: center;
+}
 
 .portfolio__aboutme-container-yapero-text {
   display: flex;
@@ -95,13 +95,11 @@
   justify-content: center;
   align-content: center;
   margin-bottom: 0.8rem;
-
 }
 
 .portfolio__aboutme-line {
-    color: #aeffe8;
-    margin-bottom: 5rem;
-
+  color: #aeffe8;
+  margin-bottom: 5rem;
 }
 .portfolio__aboutme-container-yapero-text h4 {
   margin-bottom: 0.5rem;
@@ -115,5 +113,5 @@
 }
 
 .portfolio__aboutme-container-yapero-text p a {
-    font-weight: bold;
+  font-weight: bold;
 }

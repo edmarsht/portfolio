@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: space-between;
   font-family: var(--font-family);
-  padding-top: 8rem;
+  padding-top: 4rem;
   padding-bottom: 1rem;
 }
 
@@ -15,6 +15,7 @@
   flex-direction: column;
   color: rgb(82, 62, 80);
   margin-right: 2rem;
+  padding-top: 4rem;
 }
 
 .portfolio__header-container-title {

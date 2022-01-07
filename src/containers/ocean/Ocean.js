@@ -6,7 +6,7 @@ function Ocean() {
   return (
       <div className="portfolio__container">
 <div className="portfolio__container-img bounce-top">
-<img src={arrowback} alt="ai" />
+{/* <img src={arrowback} alt="ai" /> */}
 </div>
     <div class="footer-social-links">
       <a href="https://www.facebook.com/edouard.marsh" title="Facebook" target="_blank">
