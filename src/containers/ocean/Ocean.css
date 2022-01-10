@@ -141,8 +141,7 @@
 
 .footer-social-links{
     font-size: 14px;
-    padding-left: 3rem;
-  /* text-align: center; */
+  text-align: center;
 }
 .footer-social-links a{
     width: 25px;
@@ -198,5 +197,5 @@
     color: #fff;
 }
 .footer-social-links a:hover:before{
-    background: #523e50;
+    background: #9AEBCC;
 }

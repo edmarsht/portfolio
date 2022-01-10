@@ -1,5 +1,5 @@
 .portfolio__aboutme {
-  background-color: #c2cdff;
+  background-color: #ebefff;
   box-shadow: 0px 10px 12px rgba(99, 99, 99, 0.2);
 }
 
@@ -20,8 +20,8 @@
   height: 100%;
   border-radius: 15px;
   object-fit: cover;
-  box-shadow: #aeffe8 -5px 5px, #aeffe8 -10px 10px, #aeffe8 -15px 15px,
-    #aeffe8 -20px 20px, #aeffe8 -25px 25px;
+  box-shadow: #97a0dd -5px 5px, #97a0dd -10px 10px, #97a0dd -15px 15px,
+    #97a0dd -20px 20px, #97a0dd -25px 25px;
 }
 
 .portfolio__aboutme-container-text {
@@ -39,7 +39,7 @@
 }
 .portfolio__aboutme-container-text h1 {
   font-weight: bold;
-  color: #aeffe8;
+  color: #97a0dd;
   margin-bottom: 1rem;
   font-size: 40px;
 }
@@ -98,7 +98,7 @@
 }
 
 .portfolio__aboutme-line {
-  color: #aeffe8;
+  color: #f8119a;
   margin-bottom: 5rem;
 }
 .portfolio__aboutme-container-yapero-text h4 {
@@ -114,4 +114,62 @@
 
 .portfolio__aboutme-container-yapero-text p a {
   font-weight: bold;
+}
+
+/* ------------ Responsive ------------------ */
+
+@media screen and (min-width: 1800px) {
+  .portfolio__aboutme-container {
+    padding-top: 16rem;
+    padding-bottom: 10rem;
+  }
+  .portfolio__aboutme-line {
+    margin-bottom: 10rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .portfolio__aboutme-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8rem;
+  }
+
+  .portfolio__aboutme-line {
+    display: none;
+  }
+  .portfolio__aboutme-container-text {
+    text-align: center;
+  }
+  .portfolio__aboutme-container-photo {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .portfolio__aboutme-container-photo img {
+    width: 400px;
+  }
+  .portfolio__aboutme-container-yapero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .portfolio__aboutme-container-yapero-image {
+    margin-top: 5rem;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .portfolio__aboutme-container-photo img {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .portfolio__aboutme-container-photo img {
+    width: 100%;
+  }
 }

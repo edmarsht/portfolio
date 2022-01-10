@@ -23,8 +23,8 @@
 }
 
 .portfolio__product-browser-circle {
-    width: 6px;
-    height: 6px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     margin: 0.2rem;
 }

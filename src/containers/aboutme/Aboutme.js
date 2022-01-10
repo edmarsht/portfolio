@@ -2,7 +2,6 @@ import React from "react";
 import "./Aboutme.css";
 import profilpic from "../../assets/profilpic.jpeg";
 import edouard2 from "../../assets/edouard2.png";
-import edouard3 from "../../assets/edouard3.jpeg";
 import yapero from "../../assets/yapero.svg";
 
 function Aboutme() {
