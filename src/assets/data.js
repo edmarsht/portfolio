@@ -9,9 +9,13 @@ export const products = [
     {
         id: 2,
         name: "Amazon",
+        img: "../../assets/hook.png"
+
     },
     {
         id: 3,
         name: "Tinder",
+        img: "./hook.png"
+
     },
 ];

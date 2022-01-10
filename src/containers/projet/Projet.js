@@ -1,7 +1,46 @@
 import React from "react";
 import "./Projet.css";
 import { Product } from "../../components";
-import { products } from "../../data"
+import amazon from "../../assets/amazon.png";
+
+
+const products = [
+  {
+      "id": 1,
+      "name": "Hook",
+      "img": "https://imagizer.imageshack.com/img923/3228/FR7RbM.png"
+  },
+  {
+      "id": 2,
+      "name": "Amazon",
+      "img": "https://imagizer.imageshack.com/img922/740/5LQPD4.png"
+      
+    },
+];
+const products2 = [
+  {
+      "id": 1,
+      "name": "Hook",
+      "img": "https://imagizer.imageshack.com/img923/3228/FR7RbM.png"
+  },
+  {
+      "id": 2,
+      "name": "Amazon",
+      "img": "https://imagizer.imageshack.com/img922/740/5LQPD4.png"
+      
+    },
+  {
+      "id": 3,
+      "name": "Hook",
+      "img": "https://imagizer.imageshack.com/img923/3228/FR7RbM.png"
+  },
+  {
+      "id": 4,
+      "name": "Amazon",
+      "img": "https://imagizer.imageshack.com/img922/740/5LQPD4.png"
+      
+    },
+];
 
 function Projet() {
   return (
@@ -16,12 +55,12 @@ function Projet() {
           </p>
         </div>
         <div className="portfolio__projet-container-projets">
-            {/* {products.map((item) => (
-          <Product name={item.name} img={item.img}/> */}
+            {products.map((item) => (
+          <Product name={item.name} img={item.img}/>
+             ))} 
+          {/* <Product />
           <Product />
-          <Product />
-          <Product />
-            {/* ))} */}
+          <Product /> */}
         </div>
       </div>
     </div>

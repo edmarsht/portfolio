@@ -1,6 +1,5 @@
 import React from "react";
 import "./Aboutme.css";
-import profilpic from "../../assets/profilpic.jpeg";
 import edouard2 from "../../assets/edouard2.png";
 import yapero from "../../assets/yapero.svg";
 

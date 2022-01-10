@@ -1,8 +1,12 @@
 import React from "react";
 import "./Product.css";
 import hook from "../../assets/hook.png";
+import amazon from "../../assets/amazon.png";
 
-function Product() {
+
+
+
+function Product({name, img}) {
   return (
     <div className="portfolio__product">
               {/* <h3>{name}</h3> */}
@@ -13,7 +17,7 @@ function Product() {
         <div className="portfolio__product-browser-circle green"></div>
       </div>
       <div className="portfolio__product-image">
-        <img src={hook} alt="" />
+        <img src={img} alt="" />
       </div>
     </div>
   );
