@@ -1,0 +1,16 @@
+.portfolio__minproducts {
+        width: 20%;
+        height: 20vh;
+        margin: 1rem 1rem;
+        box-shadow: 10px 10px 208px -4px #c2cdff;
+        -webkit-box-shadow: 10px 10px 208px -4px #c2cdff;
+        -moz-box-shadow: 10px 10px 208px -4px #c2cdff;
+        border-radius: 15px 15px 0 0;
+        overflow: hidden;
+        text-align: center;
+        border: 0.1px solid #B7B7B7;
+}
+
+.portfolio__product-image-min img {
+        width: 100%;
+    }

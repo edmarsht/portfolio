@@ -1,45 +1,42 @@
 import React from "react";
 import "./Projet.css";
 import { Product } from "../../components";
-import amazon from "../../assets/amazon.png";
-
+import { Minproduct } from "../../components";
 
 const products = [
   {
-      "id": 1,
-      "name": "Hook",
-      "img": "https://imagizer.imageshack.com/img923/3228/FR7RbM.png"
+    id: 1,
+    name: "Hook",
+    img: "./hook.png",
   },
   {
-      "id": 2,
-      "name": "Amazon",
-      "img": "https://imagizer.imageshack.com/img922/740/5LQPD4.png"
-      
-    },
+    id: 2,
+    name: "Amazon",
+    img: "./amazon.png",
+  },
 ];
-const products2 = [
+
+const minProducts = [
   {
-      "id": 1,
-      "name": "Hook",
-      "img": "https://imagizer.imageshack.com/img923/3228/FR7RbM.png"
+    id: 1,
+    name: "Spotify",
+    img: "./spotify.png",
   },
   {
-      "id": 2,
-      "name": "Amazon",
-      "img": "https://imagizer.imageshack.com/img922/740/5LQPD4.png"
-      
-    },
-  {
-      "id": 3,
-      "name": "Hook",
-      "img": "https://imagizer.imageshack.com/img923/3228/FR7RbM.png"
+    id: 2,
+    name: "Tinder",
+    img: "./tinder.png",
   },
   {
-      "id": 4,
-      "name": "Amazon",
-      "img": "https://imagizer.imageshack.com/img922/740/5LQPD4.png"
-      
-    },
+    id: 3,
+    name: "To Do App",
+    img: "./todoapp.png",
+  },
+  {
+    id: 4,
+    name: "Mario",
+    img: "./mario.jpeg",
+  },
 ];
 
 function Projet() {
@@ -55,12 +52,17 @@ function Projet() {
           </p>
         </div>
         <div className="portfolio__projet-container-projets">
-            {products.map((item) => (
-          <Product name={item.name} img={item.img}/>
-             ))} 
-          {/* <Product />
-          <Product />
-          <Product /> */}
+          {products.map((item) => (
+            <Product name={item.name} img={item.img} />
+          ))}
+        </div>
+        <div className="portfolio__projet-container-minprojets">
+          {minProducts.map((item) => (
+            <Minproduct name={item.name} img={item.img} />
+          ))}
+        </div>
+        <div className="portfolio__projet-container-info">
+          <h4>Découvrir d'autres projets sur Github.</h4>
         </div>
       </div>
     </div>
