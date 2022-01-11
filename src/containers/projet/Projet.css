@@ -44,11 +44,21 @@
 }
 
 .portfolio__projet-container-info {
-  margin: 1rem;
+  margin-top: 1rem;
   margin-right: 3rem;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  align-items: center;
+}
+.portfolio__projet-container-info h4 {
+  font-family: var(--font-family3);
+  font-weight: lighter;
   color: #523e50;
+  margin-left: 0.2rem;
+}
+.portfolio__projet-container-info img {
+width: 25px;
+
 }

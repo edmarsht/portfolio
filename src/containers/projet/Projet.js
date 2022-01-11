@@ -2,6 +2,7 @@ import React from "react";
 import "./Projet.css";
 import { Product } from "../../components";
 import { Minproduct } from "../../components";
+import plus from "../../assets/plus.png";
 
 const products = [
   {
@@ -62,7 +63,8 @@ function Projet() {
           ))}
         </div>
         <div className="portfolio__projet-container-info">
-          <h4>Découvrir d'autres projets sur Github.</h4>
+          <img src={plus} alt="" className="pulsate-fwd"/>
+          <h4><a href="#"> Découvrir d'autres projets sur Github.</a></h4>
         </div>
       </div>
     </div>
