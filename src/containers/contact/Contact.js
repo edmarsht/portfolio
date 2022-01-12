@@ -25,7 +25,6 @@ function Contact() {
             <p>Asnières sur Seine, 92600</p>
           </div>
         </div>
-
         <div className="portfolio__contact-container-form">
           <p>
             <strong> What 's your story ?</strong> Get in touch. Always
@@ -39,7 +38,6 @@ function Contact() {
             <button>Submit</button>
           </form> */}
           <form action="">
-
             <div class="form__group field">
               <input
                 type="input"
@@ -79,16 +77,14 @@ function Contact() {
                 Email
               </label>
             </div>
-
             <textarea rows="5" name="message"></textarea>
             <button className="button-pink">Submit</button>
           </form>
         </div>
       </div>
-
-      {/* <div className="portfolio__contact-image">
-        <img src={edouard5} alt="" />
-      </div> */}
+      <div className="portfolio__contact-image">
+            <img src={edouard5} alt="" />
+          </div>
     </div>
   );
 }
