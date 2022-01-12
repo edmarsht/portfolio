@@ -26,7 +26,7 @@ function Aboutme() {
           </p>
           <div className="portfolio__aboutme-container-yapero">
             <div className="portfolio__aboutme-container-yapero-image">
-              <img src={yapero} alt="ai" />
+              <img src={yapero} alt="yapero" className="pulsate-fwd" />
             </div>
             <div className="portfolio__aboutme-container-yapero-text">
               <h4>PDG société Yapero.</h4>

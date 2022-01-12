@@ -1,13 +1,10 @@
 import React from "react";
 import "./Product.css";
 
-
-
-
-function Product({name, img}) {
+function Product({ name, img, link }) {
   return (
     <div className="portfolio__product">
-              {/* <h3>{name}</h3> */}
+      {/* <h3>{name}</h3> */}
 
       <div className="portfolio__product-browser">
         <div className="portfolio__product-browser-circle red circle__left"></div>
@@ -15,7 +12,9 @@ function Product({name, img}) {
         <div className="portfolio__product-browser-circle green"></div>
       </div>
       <div className="portfolio__product-image">
-        <img src={img} alt="" />
+        <a href={link}>
+          <img src={img} alt="" />
+        </a>
       </div>
     </div>
   );

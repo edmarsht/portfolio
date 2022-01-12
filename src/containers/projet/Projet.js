@@ -9,11 +9,13 @@ const products = [
     id: 1,
     name: "Hook",
     img: "./hook.png",
+    link: "#",
   },
   {
     id: 2,
     name: "Amazon",
     img: "./amazon.png",
+    link: "#",
   },
 ];
 
@@ -54,12 +56,12 @@ function Projet() {
         </div>
         <div className="portfolio__projet-container-projets">
           {products.map((item) => (
-            <Product name={item.name} img={item.img} />
+            <Product key={item.id} name={item.name} img={item.img} link={item.link} />
           ))}
         </div>
         <div className="portfolio__projet-container-minprojets">
           {minProducts.map((item) => (
-            <Minproduct name={item.name} img={item.img} />
+            <Minproduct key={item.id} name={item.name} img={item.img} />
           ))}
         </div>
         <div className="portfolio__projet-container-info">

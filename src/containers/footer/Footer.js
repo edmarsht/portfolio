@@ -8,7 +8,7 @@ function Footer() {
         <h1 className="gradient__text">
         Le plus dur c'est de le faire, ce n'est pas d'y penser.
         </h1>
-        <button className="hook__footer_button">Contact</button>
+        <a href="#contact"><button className="hook__footer_button">Contact</button></a>
       </div>
       <div className="hook__container-details">
         <div className="hook__container-details-1">
