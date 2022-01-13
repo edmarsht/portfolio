@@ -1,11 +1,38 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import "./Contact.css";
 import edouard5 from "../../assets/edouard5.png";
 import phone from "../../assets/phone.png";
 import email from "../../assets/email.png";
 import location from "../../assets/location.png";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
+  const formRef = useRef();
+  const [name, setName] = useState("");
+  const [done, setDone] = useState(false);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_f8fbxir",
+        "template_gm5vadb",
+        formRef.current,
+        "user_l8s8B8JbKBef0uIaiKcFu"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setDone(true);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   return (
     <div className="portfolio__contact contact" id="contact">
       <div className="bg-contact"></div>
@@ -30,21 +57,16 @@ function Contact() {
             <strong> What 's your story ?</strong> Get in touch. Always
             available for freelancing if the project comes along me.
           </p>
-          {/* <form action="">
-            <input type="text" placeholder="Name" name="user_name" />
-            <input type="text" placeholder="Subject" name="user_subject" />
-            <input type="text" placeholder="Email" name="user_email" />
-            <textarea rows="5" name="message"></textarea>
-            <button>Submit</button>
-          </form> */}
-          <form action="">
+          <form ref={formRef} onSubmit={handleSubmit}>
             <div class="form__group field">
               <input
                 type="input"
                 class="form__field"
                 placeholder="Name"
-                name="name"
+                onChange={(e) => setName(e.target.value)}
+                name="user_name"
                 id="name"
+                autoComplete="off"
                 required
               />
               <label for="name" class="form__label">
@@ -56,7 +78,8 @@ function Contact() {
                 type="input"
                 class="form__field"
                 placeholder="Subject"
-                name="subject"
+                autoComplete="off"
+                name="user_subject"
                 id="subject"
                 required
               />
@@ -69,22 +92,28 @@ function Contact() {
                 type="input"
                 class="form__field"
                 placeholder="Email"
-                name="email"
+                name="user_email"
+                autoComplete="off"
                 id="email"
                 required
               />
-              <label for="email" class="form__label">
+              <label for="email" class="form__label" >
                 Email
               </label>
             </div>
             <textarea rows="5" name="message"></textarea>
             <button className="button-pink">Submit</button>
+            {done && (
+              <h2 className="contact__message">
+                Thank you {name} ! I m gonna joining you quickly !{" "}
+              </h2>
+            )}
           </form>
         </div>
       </div>
       <div className="portfolio__contact-image">
-            <img src={edouard5} alt="" />
-          </div>
+        <img src={edouard5} alt="" />
+      </div>
     </div>
   );
 }
