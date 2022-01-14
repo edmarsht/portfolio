@@ -1,6 +1,6 @@
 .portfolio__minproducts {
         width: 20%;
-        height: 20vh;
+        height: 163px;
         margin: 1rem 1rem;
         box-shadow: 10px 10px 208px -4px #c2cdff;
         -webkit-box-shadow: 10px 10px 208px -4px #c2cdff;
@@ -14,3 +14,9 @@
 .portfolio__product-image-min img {
         width: 100%;
     }
+
+    @media screen and (max-width: 1000px) {
+        .portfolio__minproducts {
+                height: 100px;
+        }
+      }

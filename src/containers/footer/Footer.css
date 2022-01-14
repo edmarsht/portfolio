@@ -1,8 +1,8 @@
 .hook__footer {
     background-color: #031b34;
     font-family: var(--font-family);
-    z-index: 100000;
-    position: relative;
+    /* z-index: 100000;
+    position: relative; */
 
   }
   
