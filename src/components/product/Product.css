@@ -1,5 +1,5 @@
 .portfolio__product {
-    width: 30%;
+    width: 40%;
     height: 260px;
     margin: 2rem 1rem;
     box-shadow: 10px 10px 208px -4px #c2cdff;
@@ -29,6 +29,7 @@
 
 .portfolio__product-browser-circle.red {
     background-color: #F25656;
+    margin-left: 0.8rem;
 }
 .portfolio__product-browser-circle.black {
     background-color: #515050;
@@ -50,4 +51,26 @@
 
 .portfolio__product-image img:hover {
     transform: translateY(-70%);
+}
+
+@media screen and (max-width: 750px) {
+    .portfolio__product {
+        height: 200px;
+        margin: 2rem 1rem;
+    }
+    .portfolio__product-browser-circle {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        margin: 0.1rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    /* .portfolio__product {
+        width: 30%;
+        height: 200px;
+        margin: 2rem 1rem;
+    } */
+
+    
 }
