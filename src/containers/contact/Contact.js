@@ -111,9 +111,9 @@ function Contact() {
           </form>
         </div>
       </div>
-      <div className="portfolio__contact-image">
+      {/* <div className="portfolio__contact-image">
         <img src={edouard5} alt="" />
-      </div>
+      </div> */}
     </div>
   );
 }
