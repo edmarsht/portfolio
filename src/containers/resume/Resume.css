@@ -99,6 +99,13 @@
       margin-bottom: 0;
     }
   }
+  @media screen and (max-width: 650px) {
+    /* ------------------------ Container section ------------ */
+    .portfolio__resume-container {
+     padding-left: 1rem;
+     padding-right: 1rem; 
+    }
+  }
   
   
   
