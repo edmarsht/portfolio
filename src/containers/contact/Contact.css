@@ -241,3 +241,12 @@ form button {
     width: 80%;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .portfolio__contact-container-info-item {
+    margin-top: 2rem;
+  }
+  .portfolio__contact-container-info h1 {
+    margin-bottom: 2rem;
+  }
+}

@@ -65,16 +65,19 @@
     left: 0;
     height: 100%;
     width: 0;
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: #e8e8e8;
     z-index: -1;
     -webkit-box-shadow: 4px 8px 19px -3px #97A0DD;
     box-shadow: 4px 8px 19px -3px #97A0DD;
     transition: all 250ms;
+
   }
   
   .portfolio__resume-container-button:hover {
     color: #97A0DD;
+
+
   }
   
   .portfolio__resume-container-button:hover::before {
@@ -96,5 +99,6 @@
       margin-bottom: 0;
     }
   }
+  
   
   
