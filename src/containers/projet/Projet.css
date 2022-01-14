@@ -76,6 +76,8 @@ width: 25px;
   .portfolio__projet-container-minprojets {
     flex-wrap: wrap;
     justify-content: space-around;
-
+  }
+  .portfolio__projet-container-minprojets {
+    margin-top: 1rem;
   }
 }
