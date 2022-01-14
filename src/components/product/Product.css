@@ -65,12 +65,10 @@
         margin: 0.1rem;
     }
 }
-@media screen and (max-width: 600px) {
-    /* .portfolio__product {
-        width: 30%;
-        height: 200px;
-        margin: 2rem 1rem;
-    } */
+@media screen and (max-width: 530px) {
+    .portfolio__product {
+        width: 100%;
+        height: 300px;
 
-    
+    }
 }
