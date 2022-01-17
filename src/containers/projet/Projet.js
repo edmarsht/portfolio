@@ -10,12 +10,14 @@ const products = [
     name: "Hook",
     img: "./hook.png",
     link: "#",
+    description: "It looks like difficult but i am trying and will finsish it for sur !",
   },
   {
     id: 2,
     name: "Amazon",
     img: "./amazon.png",
     link: "#",
+    description: "It looks like difficult but i am trying and will finsish it for sur !",
   },
 ];
 
@@ -24,21 +26,25 @@ const minProducts = [
     id: 1,
     name: "Spotify",
     img: "./spotify.png",
+    description: "It looks like difficult but i am trying and will finsish it for sur !"
   },
   {
     id: 2,
     name: "Tinder",
     img: "./tinder.png",
+    description: "It looks like difficult but i am trying and will finsish it for sur !"
   },
   {
     id: 3,
     name: "To Do App",
     img: "./todoapp.png",
+    description: "It looks like difficult but i am trying and will finsish it for sur !"
   },
   {
     id: 4,
     name: "Mario",
     img: "./mario.jpeg",
+    description: "It looks like difficult but i am trying and will finsish it for sur !"
   },
 ];
 
@@ -56,7 +62,7 @@ function Projet() {
         </div>
         <div className="portfolio__projet-container-projets">
           {products.map((item) => (
-            <Product key={item.id} name={item.name} img={item.img} link={item.link} />
+            <Product key={item.id} name={item.name} img={item.img} link={item.link} description={item.description} />
           ))}
         </div>
         <div className="portfolio__projet-container-minprojets">

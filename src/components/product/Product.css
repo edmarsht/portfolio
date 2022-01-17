@@ -1,7 +1,16 @@
-.portfolio__product {
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 40%;
+    align-items: center;
+
+}
+
+.portfolio__product {
+    width: 100%;
     height: 260px;
-    margin: 2rem 1rem;
+    margin: 1rem 1rem;
     box-shadow: 10px 10px 208px -4px #c2cdff;
     -webkit-box-shadow: 10px 10px 208px -4px #c2cdff;
     -moz-box-shadow: 10px 10px 208px -4px #c2cdff;
@@ -52,6 +61,8 @@
 .portfolio__product-image img:hover {
     transform: translateY(-70%);
 }
+
+
 
 @media screen and (max-width: 750px) {
     .portfolio__product {
