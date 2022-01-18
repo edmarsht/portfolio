@@ -9,15 +9,17 @@ const products = [
     id: 1,
     name: "Hook",
     img: "./hook.png",
-    link: "#",
-    description: "It looks like difficult but i am trying and will finsish it for sur !",
+    imgcut: "./hookcut.png",
+    link: "https://hook-23a60.web.app/",
+    description: "EdMarsht is a creative portfolio that your work has been wainting for. Beautiful homs, stunning portfolio styles & a whole lot more awaits inside.EdMarsht is a creative portfolio that your work has been wainting for. Beautiful homs, stunning portfolio styles & a whole lot more awaits inside. roks like diffisish it for sur !",
   },
   {
     id: 2,
     name: "Amazon",
     img: "./amazon.png",
-    link: "#",
-    description: "It looks like difficult but i am trying and will finsish it for sur !",
+    imgcut: "./amazoncut.png",
+    link: "https://hook-23a60.web.app/",
+    description: "EdMarsht is a creative portfolio that your work has been wainting for. Beautiful homs, stunning portfolio styles & a whole lot more awaits inside.EdMarsht is a creative portfolio that your work has been wainting for. Beautiful homs, stunning portfolio styles & a whole lot more awaits inside. roks like diffisish it for sur !",
   },
 ];
 
@@ -62,7 +64,7 @@ function Projet() {
         </div>
         <div className="portfolio__projet-container-projets">
           {products.map((item) => (
-            <Product key={item.id} name={item.name} img={item.img} link={item.link} description={item.description} />
+            <Product key={item.id} name={item.name} img={item.img} link={item.link} description={item.description} imgcut={item.imgcut}/>
           ))}
         </div>
         <div className="portfolio__projet-container-minprojets">

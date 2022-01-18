@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Product.css";
 import { Popup } from "../../components";
 
-function Product({ name, img, link, description }) {
+function Product({ name, img, link, description, imgcut}) {
   const [showModal, setShowModal] = useState(false)
 
   const openModal = () => {
@@ -23,7 +23,8 @@ function Product({ name, img, link, description }) {
         </div>
       </div>
       <button className="portfolio__product-button" onClick={openModal}>{name}</button>
-      <Popup description={description} showModal={showModal} setShowModal={setShowModal}/>
+      {showModal}
+      <Popup description={description} img={img} name={name} showModal={showModal} imgcut={imgcut} link={link} setShowModal={setShowModal}/>
     </div>
   );
 }
