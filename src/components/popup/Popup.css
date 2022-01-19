@@ -6,7 +6,7 @@
     left: 0;
     top: 0;
     bottom: 0;
-    z-index: 10000;
+    z-index: 10000000000;
     background-color: rgba(0, 0, 0, 0.5);
 
     display: flex;
@@ -17,7 +17,7 @@
 
 .portfolio__popup-container {
     position: fixed;
-    z-index: 2000000;
+    z-index: 20000000000;
     width: 500px;
     height: 650px;
     background-color: white;

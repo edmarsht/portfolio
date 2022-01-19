@@ -8,11 +8,11 @@ function Aboutme() {
     <div className="portfolio__aboutme">
       <div className="portfolio__aboutme-container section__padding"
         id="aboutme">
-        <div className="portfolio__aboutme-container-photo" data-aos="zoom-in-right">
+        <div className="portfolio__aboutme-container-photo" data-aos="zoom-in-right" data-aos-anchor-placement="bottom-bottom">
           <img src={edouard2} alt="ai" />
         </div>
         <div className="portfolio__aboutme-container-text">
-        <div className="portfolio__aboutme-line" data-aos="fade-down">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
+        <div className="portfolio__aboutme-line" data-aos="fade-down" data-aos-anchor-placement="center-center">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
 
           <h3 data-aos="fade-left">Front end developer.</h3>
           <h1 data-aos="fade-left">About Me</h1>
@@ -24,7 +24,7 @@ function Aboutme() {
             fibres utilisées dans le tissage, voir par exemple Ovide : « Quo
             super iniec
           </p>
-          <div className="portfolio__aboutme-container-yapero" data-aos="fade-left" data-aos-offset="500">
+          <div className="portfolio__aboutme-container-yapero" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">
             <div className="portfolio__aboutme-container-yapero-image">
               <img src={yapero} alt="yapero" className="pulsate-fwd" />
             </div>
@@ -40,9 +40,6 @@ function Aboutme() {
               </p>
             </div>
           </div>
-          {/* <div className="container">
-            <h4 className="highlight__aboutme">Contact me</h4>
-          </div> */}
         </div>
       </div>
     </div>

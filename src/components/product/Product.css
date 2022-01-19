@@ -17,6 +17,7 @@
   overflow: hidden;
   text-align: center;
   border: 0.1px solid #b7b7b7;
+  background: rgb(243, 242, 242);
 }
 
 .portfolio__product-browser {

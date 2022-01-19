@@ -9,14 +9,14 @@ function Product({ name, img, link, description, imgcut}) {
     setShowModal(prev => !prev) 
   }
   return (
-    <div className="product" data-aos="zoom-in-up">
+    <div className="product">
       <div className="portfolio__product">
         <div className="portfolio__product-browser">
           <div className="portfolio__product-browser-circle red circle__left"></div>
           <div className="portfolio__product-browser-circle black"></div>
           <div className="portfolio__product-browser-circle green"></div>
         </div>
-        <div className="portfolio__product-image">
+        <div className="portfolio__product-image" data-aos="fade-up">
           <a href={link}>
             <img src={img} alt="" />
           </a>
