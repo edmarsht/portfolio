@@ -10,7 +10,7 @@ function Minproduct({ name, img }) {
         <div className="portfolio__product-browser-circle black"></div>
         <div className="portfolio__product-browser-circle green"></div>
       </div>
-      <div className="portfolio__product-image-min" data-aos="fade-up">
+      <div className="portfolio__product-image-min" data-aos="fade-up" data-aos-duration="500">
         <img src={img} alt="" />
       </div>
     </div>

@@ -8,7 +8,7 @@ function Aboutme() {
     <div className="portfolio__aboutme">
       <div className="portfolio__aboutme-container section__padding"
         id="aboutme">
-        <div className="portfolio__aboutme-container-photo" data-aos="zoom-in-right" data-aos-anchor-placement="bottom-bottom">
+        <div className="portfolio__aboutme-container-photo" data-aos="zoom-in-right" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">
           <img src={edouard2} alt="ai" />
         </div>
         <div className="portfolio__aboutme-container-text">

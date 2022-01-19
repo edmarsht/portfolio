@@ -54,7 +54,7 @@ function Projet() {
   return (
     <div className="portfolio__projet section__margin" id="projet">
       <div className="portfolio__projet-container">
-        <div className="portfolio__projet-container-text" data-aos="fade-down" data-aos-anchor-placement="center-center">
+        <div className="portfolio__projet-container-text" data-aos="fade-down" data-aos-anchor-placement="center-bottom" data-aos-duration="800">
           <h1>Create & Inspire. It's Edmarsht</h1>
           <p>
             EdMarsht is a creative portfolio that your work has been wainting
