@@ -23,7 +23,7 @@ function Popup({ description, showModal, setShowModal, name, img, imgcut, link})
             <div className="portfolio-container-text">
               <h1>{name}</h1>
               <p>{description}</p>
-              <a href={link}><button className="button-pink">Visiter le site</button></a>
+              <a href={link} target="_blank"><button className="button-pink">Visiter le site</button></a>
             </div>
           </div>
         </div>

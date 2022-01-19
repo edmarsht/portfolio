@@ -18,7 +18,7 @@ const products = [
     name: "Amazon",
     img: "./amazon.png",
     imgcut: "./amazoncut.png",
-    link: "https://hook-23a60.web.app/",
+    link: "https://clone-e655c.web.app/",
     description: "EdMarsht is a creative portfolio that your work has been wainting for. Beautiful homs, stunning portfolio styles & a whole lot more awaits inside.EdMarsht is a creative portfolio that your work has been wainting for. Beautiful homs, stunning portfolio styles & a whole lot more awaits inside. roks like diffisish it for sur !",
   },
 ];
