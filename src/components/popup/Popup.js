@@ -1,5 +1,7 @@
 import React from "react";
 import "./Popup.css";
+import close from "../../assets/close.png";
+
 
 function Popup({ description, showModal, setShowModal, name, img, imgcut, link}) {
   return (
@@ -14,7 +16,7 @@ function Popup({ description, showModal, setShowModal, name, img, imgcut, link})
                 <div className="portfolio__product-browser-circle black"></div>
                 <div className="portfolio__product-browser-circle green"></div>
               </div>
-              <div className="portfolio__popup-container-closebutton" onClick={() => setShowModal((prev) => !prev)}><strong>X</strong></div>
+              <div className="portfolio__popup-container-closebutton pulsate-fwd" onClick={() => setShowModal((prev) => !prev)}><strong><img src={close} alt="close" /></strong></div>
             </div>
 
             <div className="portfolio-container-img" data-aos="fade-up" data-aos-duration="500">

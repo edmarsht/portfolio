@@ -12,7 +12,7 @@ function Aboutme() {
           <img src={edouard2} alt="ai" />
         </div>
         <div className="portfolio__aboutme-container-text">
-        <div className="portfolio__aboutme-line" data-aos="fade-down" data-aos-anchor-placement="center-center">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
+        <div className="portfolio__aboutme-line" data-aos="zoom-in" data-aos-duration="1500" data-aos-anchor-placement="center-center">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
 
           <h3 data-aos="fade-left">Front end developer.</h3>
           <h1 data-aos="fade-left">About Me</h1>

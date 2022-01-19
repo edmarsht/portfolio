@@ -38,27 +38,27 @@ function Contact() {
       <div className="bg-contact"></div>
       <div className="portfolio__contact-container section__padding">
         <div className="portfolio__contact-container-info">
-          <h1>Let's discuss</h1>
-          <div className="portfolio__contact-container-info-item">
+          <h1 data-aos="fade-up">Let's discuss</h1>
+          <div className="portfolio__contact-container-info-item" data-aos="fade-right">
             <img src={phone} alt="phone" />
             <p>(+33) 06 27 13 57 23</p>
           </div>
-          <div className="portfolio__contact-container-info-item">
+          <div className="portfolio__contact-container-info-item" data-aos="fade-right">
             <img src={email} alt="email" />
             <p>edtoulet@gmail.com</p>
           </div>
-          <div className="portfolio__contact-container-info-item">
+          <div className="portfolio__contact-container-info-item" data-aos="fade-right">
             <img src={location} alt="location" />
             <p>Asnières sur Seine, 92600</p>
           </div>
         </div>
         <div className="portfolio__contact-container-form">
-          <p>
+          <p data-aos="fade-left">
             <strong> What 's your story ?</strong> Get in touch. Always
             available for freelancing if the project comes along me.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
-            <div class="form__group field">
+            <div class="form__group field" data-aos="fade-left">
               <input
                 type="input"
                 class="form__field"
@@ -73,7 +73,7 @@ function Contact() {
                 Name
               </label>
             </div>
-            <div class="form__group field">
+            <div class="form__group field" data-aos="fade-left">
               <input
                 type="input"
                 class="form__field"
@@ -87,7 +87,7 @@ function Contact() {
                 Subject
               </label>
             </div>
-            <div class="form__group field">
+            <div class="form__group field" data-aos="fade-left">
               <input
                 type="input"
                 class="form__field"
@@ -101,10 +101,10 @@ function Contact() {
                 Email
               </label>
             </div>
-            <textarea rows="5" name="message"></textarea>
-            <button className="button-pink">Submit</button>
+            <textarea rows="5" name="message" data-aos="fade-left"></textarea>
+            <button className="button-pink" data-aos="fade-left">Submit</button>
             {done && (
-              <h2 className="contact__message">
+              <h2 className="contact__message" data-aos="fade-up">
                 Thank you {name} ! I m gonna joining you quickly !{" "}
               </h2>
             )}

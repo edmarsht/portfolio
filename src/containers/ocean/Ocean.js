@@ -4,7 +4,7 @@ import arrowback from "../../assets/arrowback.svg";
 
 function Ocean() {
   return (
-      <div className="portfolio__container" data-aos="fade-up">
+      <div className="portfolio__container" data-aos="zoom-in-up" data-aos-duration="1000">
 <div className="portfolio__container-img bounce-top">
 </div>
     <div class="footer-social-links">

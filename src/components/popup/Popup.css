@@ -44,7 +44,12 @@
     justify-content: space-between;
     background-color: rgb(243, 242, 242);
     align-items: center;
-
+    align-content: center;
+}
+.portfolio__popup-container-closebutton img {
+    width: 20px;
+    height: 20px;
+    margin-top: 0.2rem;
 }
 .portfolio__popup-container-closebutton {
     cursor: pointer;
