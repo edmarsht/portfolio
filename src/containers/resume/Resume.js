@@ -3,7 +3,7 @@ import "./Resume.css"
 
 function Resume() {
     return (
-        <div className="portfolio__resume section__margin gradient__bg-resume" id="resume">
+        <div className="portfolio__resume section__margin gradient__bg-resume " data-aos="zoom-in" id="resume">
         <div className="portfolio__resume-container">
           <div className="portfolio__resume-container-title">
             <p>Vous n'avez toujours pas vu mon cv complet ? </p>

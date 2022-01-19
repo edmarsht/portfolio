@@ -9,7 +9,7 @@ function Product({ name, img, link, description, imgcut}) {
     setShowModal(prev => !prev) 
   }
   return (
-    <div className="product">
+    <div className="product" data-aos="zoom-in-up">
       <div className="portfolio__product">
         <div className="portfolio__product-browser">
           <div className="portfolio__product-browser-circle red circle__left"></div>

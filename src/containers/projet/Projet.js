@@ -54,7 +54,7 @@ function Projet() {
   return (
     <div className="portfolio__projet section__margin" id="projet">
       <div className="portfolio__projet-container">
-        <div className="portfolio__projet-container-text">
+        <div className="portfolio__projet-container-text" data-aos="fade-up">
           <h1>Create & Inspire. It's Edmarsht</h1>
           <p>
             EdMarsht is a creative portfolio that your work has been wainting
@@ -72,7 +72,7 @@ function Projet() {
             <Minproduct key={item.id} name={item.name} img={item.img} />
           ))}
         </div>
-        <div className="portfolio__projet-container-info">
+        <div className="portfolio__projet-container-info" data-aos="fade-left">
           <img src={plus} alt="" className="pulsate-fwd"/>
           <h4><a href="#"> Découvrir d'autres projets sur Github.</a></h4>
         </div>

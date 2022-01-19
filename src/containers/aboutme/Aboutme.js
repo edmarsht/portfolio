@@ -8,15 +8,15 @@ function Aboutme() {
     <div className="portfolio__aboutme">
       <div className="portfolio__aboutme-container section__padding"
         id="aboutme">
-        <div className="portfolio__aboutme-container-photo">
+        <div className="portfolio__aboutme-container-photo" data-aos="zoom-in-right">
           <img src={edouard2} alt="ai" />
         </div>
         <div className="portfolio__aboutme-container-text">
-        <div className="portfolio__aboutme-line">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
+        <div className="portfolio__aboutme-line" data-aos="fade-down">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
 
-          <h3>Front end developer.</h3>
-          <h1>About Me</h1>
-          <p>
+          <h3 data-aos="fade-left">Front end developer.</h3>
+          <h1 data-aos="fade-left">About Me</h1>
+          <p data-aos="fade-left">
             « Texte » est issu du mot latin « textum », dérivé du verbe « texere
             » qui signifie « tisser ». Le mot s'applique à l'entrelacement des
             fibres utilisées dans le tissage, voir par exemple Ovide : « Quo »
@@ -24,7 +24,7 @@ function Aboutme() {
             fibres utilisées dans le tissage, voir par exemple Ovide : « Quo
             super iniec
           </p>
-          <div className="portfolio__aboutme-container-yapero">
+          <div className="portfolio__aboutme-container-yapero" data-aos="fade-left" data-aos-offset="500">
             <div className="portfolio__aboutme-container-yapero-image">
               <img src={yapero} alt="yapero" className="pulsate-fwd" />
             </div>
