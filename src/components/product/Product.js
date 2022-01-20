@@ -16,14 +16,11 @@ function Product({ name, img, link, description, imgcut}) {
           <div className="portfolio__product-browser-circle black"></div>
           <div className="portfolio__product-browser-circle green"></div>
         </div>
-        <div className="portfolio__product-image" data-aos="fade-up" data-aos-duration="500">
-          <a href={link}>
-            <img src={img} alt="" />
-          </a>
+        <div className="portfolio__product-image" data-aos="fade-up" data-aos-duration="800">
+            <img src={img} alt={name} onClick={openModal}/>
         </div>
       </div>
       <button className="portfolio__product-button" onClick={openModal}>{name}</button>
-      {showModal}
       <Popup description={description} img={img} name={name} showModal={showModal} imgcut={imgcut} link={link} setShowModal={setShowModal}/>
     </div>
   );

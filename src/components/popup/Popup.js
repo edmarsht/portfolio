@@ -16,16 +16,16 @@ function Popup({ description, showModal, setShowModal, name, img, imgcut, link})
                 <div className="portfolio__product-browser-circle black"></div>
                 <div className="portfolio__product-browser-circle green"></div>
               </div>
-              <div className="portfolio__popup-container-closebutton pulsate-fwd" onClick={() => setShowModal((prev) => !prev)}><strong><img src={close} alt="close" /></strong></div>
+              <div className="portfolio__popup-container-closebutton pulsate-fwd" onClick={() => setShowModal((prev) => !prev)}><strong>⤬</strong></div>
             </div>
 
-            <div className="portfolio-container-img" data-aos="fade-up" data-aos-duration="500">
+            <div className="portfolio-container-img">
               <img src={imgcut} alt={name} />
             </div>
             <div className="portfolio-container-text">
-              <h1 data-aos="fade-left" data-aos-duration="500">{name}</h1>
-              <p data-aos="fade-left" data-aos-duration="500">{description}</p>
-              <a href={link} target="_blank"><button className="button-pink" data-aos="fade-left" data-aos-duration="500">Visiter le site</button></a>
+              <h1>{name}</h1>
+              <p>{description}</p>
+              <a href={link} target="_blank"><button className="button-pink">Visiter le site</button></a>
             </div>
           </div>
         </div>

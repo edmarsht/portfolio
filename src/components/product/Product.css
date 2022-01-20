@@ -54,6 +54,7 @@
 .portfolio__product-image img {
   width: 100%;
   transition: all 10s ease;
+  cursor: pointer;
 }
 
 .portfolio__product-image img:hover {

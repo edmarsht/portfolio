@@ -28,25 +28,29 @@ const minProducts = [
     id: 1,
     name: "Spotify",
     img: "./spotify.png",
-    description: "It looks like difficult but i am trying and will finsish it for sur !"
+    imgcut: "./spotify.png",
+    description: "J'ai reproduis la page d'accueil de Spotify en React en y implémentant mes propres données de l'application grâce à L'API fournit par Spotify."
   },
   {
     id: 2,
     name: "Tinder",
     img: "./tinder.png",
-    description: "It looks like difficult but i am trying and will finsish it for sur !"
+    // imgcut: "./tinder.png",
+    description: "J'ai reproduis ici un clone de Tinder en utilisant la stack M.E.R.N (MongoDB, Express, React, NodeJS) puis j'ai deployé le Back-end sur Heroku et le Front-end sur Firebase. Afin d'arriver à un résultat similaire, j'ai intégré une dépendance React (react-tinder-card) simulant le `swipe` de Tinder qui me permet également de connaitre la direction du balayage et donc d'un `oui` ou d'un `non`."
   },
   {
     id: 3,
     name: "To Do App",
     img: "./todoapp.png",
+    imgcut: "./todoapp.png",
     description: "It looks like difficult but i am trying and will finsish it for sur !"
   },
   {
     id: 4,
     name: "Mario",
     img: "./mario.jpeg",
-    description: "It looks like difficult but i am trying and will finsish it for sur !"
+    imgcut: "./mario.jpeg",
+    description: "3 niveaux inspiré du célèbre jeu vidéo Mario. L'application est développé en Javascript et utilise une librairie (Kaboom.js). Ici nous avons la possibilité, grâce aux touche du clavier, de se déplacer et de sauter les obstacles dans l'objectif d'arriver au drapeau."
   },
 ];
 
@@ -69,12 +73,12 @@ function Projet() {
         </div>
         <div className="portfolio__projet-container-minprojets">
           {minProducts.map((item) => (
-            <Minproduct key={item.id} name={item.name} img={item.img} />
+            <Minproduct key={item.id} name={item.name} img={item.img} description={item.description} imgcut={item.imgcut}  />
           ))}
         </div>
         <div className="portfolio__projet-container-info" data-aos="fade-left">
-          <img src={plus} alt="" className="pulsate-fwd"/>
-          <h4><a href="#"> Découvrir d'autres projets sur Github.</a></h4>
+          <img src={plus} alt="plus" className="pulsate-fwd"/>
+          <h4><a href="https://github.com/edmarsht?tab=repositories" target="_blank"> Découvrir d'autres projets sur Github.</a></h4>
         </div>
       </div>
     </div>

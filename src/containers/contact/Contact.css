@@ -1,16 +1,7 @@
 .contact {
-  /* height: 00px; */
-  /* position: relative; */
   color: #523e50;
   font-family: var(--font-family3);
 }
-
-/* .bg-contact {
-  width: 20px;
-  height: 100%;
-  background-color: #ff26a4;
-  position: absolute;
-} */
 
 .portfolio__contact-container {
   display: flex;
@@ -32,6 +23,7 @@
 }
 .portfolio__contact-container-form p {
   margin-bottom: 3rem;
+  line-height: 25px;
 }
 .portfolio__contact-container-form p strong {
   color: #fb009f;
@@ -56,60 +48,7 @@
   height: 30px;
   margin-right: 2rem;
 }
-/* ------------------------------------------------FORM START */
-/* .portfolio__contact-container-form {
-  margin-top: 1.5rem;
-}
-.portfolio__contact-container-form p {
-  font-weight: 200;
-}
 
-.portfolio__contact-container-form form {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-}
-
-form input {
-  margin-top: 2rem;
-  font-size: 14px;
-  font-family: var(--font-family3);
-  padding-left: 0.5rem;
-  width: 50%;
-  height: 50px;
-  border: none;
-  border-bottom: 1px solid #523e50;
-}
-form textarea {
-  margin-top: 2rem;
-  padding-top: 0.5rem;
-  font-size: 14px;
-  font-family: var(--font-family3);
-  padding-left: 0.5rem;
-  width: 100%;
-}
-form button {
-  margin-top: 2rem;
-  font-family: var(--font-family3);
-  width: 30%;
-}
-
-textarea:focus,
-input:focus {
-  outline: none;
-} */
-/* ------------------------------------------------FORM END  */
-
-/* ---------------------------Image START------------- */
-/* .portfolio__contact-image {
-  margin-top: 2rem;
-  top: -215px;
-  position: relative;
-  z-index: 100;
-}
-.portfolio__contact-image img {
-  width: 300px;
-} */
 /* ---------------------------Image START------------- */
 .portfolio__contact-container-form {
   z-index: 1000;

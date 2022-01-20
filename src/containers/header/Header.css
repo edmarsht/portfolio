@@ -161,7 +161,7 @@ button:active {
 }
 @media screen and (max-width: 700px) {
   .portfolio__header {
-    padding-top: 0;
+    padding-top: 6rem;
   }
   .portfolio__header-container {
     margin-top: 0;

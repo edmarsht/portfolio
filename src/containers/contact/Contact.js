@@ -38,24 +38,33 @@ function Contact() {
       <div className="bg-contact"></div>
       <div className="portfolio__contact-container section__padding">
         <div className="portfolio__contact-container-info">
-          <h1 data-aos="fade-up">Let's discuss</h1>
-          <div className="portfolio__contact-container-info-item" data-aos="fade-right">
+          <h1 data-aos="fade-up">Let's discuss.</h1>
+          <div
+            className="portfolio__contact-container-info-item"
+            data-aos="fade-right"
+          >
             <img src={phone} alt="phone" />
             <p>(+33) 06 27 13 57 23</p>
           </div>
-          <div className="portfolio__contact-container-info-item" data-aos="fade-right">
+          <div
+            className="portfolio__contact-container-info-item"
+            data-aos="fade-right"
+          >
             <img src={email} alt="email" />
             <p>edtoulet@gmail.com</p>
           </div>
-          <div className="portfolio__contact-container-info-item" data-aos="fade-right">
+          <div
+            className="portfolio__contact-container-info-item"
+            data-aos="fade-right"
+          >
             <img src={location} alt="location" />
             <p>Asnières sur Seine, 92600</p>
           </div>
         </div>
         <div className="portfolio__contact-container-form">
           <p data-aos="fade-left">
-            <strong> What 's your story ?</strong> Get in touch. Always
-            available for freelancing if the project comes along me.
+            <strong> Quel est votre histoire ?</strong> Discutons ensemble. Toujours disponible pour des beaux projets ou des opportunités
+            professionnelles.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <div class="form__group field" data-aos="fade-left">
@@ -70,7 +79,7 @@ function Contact() {
                 required
               />
               <label for="name" class="form__label">
-                Name
+                Prénom
               </label>
             </div>
             <div class="form__group field" data-aos="fade-left">
@@ -84,7 +93,7 @@ function Contact() {
                 required
               />
               <label for="subject" class="form__label">
-                Subject
+                Sujet
               </label>
             </div>
             <div class="form__group field" data-aos="fade-left">
@@ -97,23 +106,22 @@ function Contact() {
                 id="email"
                 required
               />
-              <label for="email" class="form__label" >
+              <label for="email" class="form__label">
                 Email
               </label>
             </div>
             <textarea rows="5" name="message" data-aos="fade-left"></textarea>
-            <button className="button-pink" data-aos="fade-left">Submit</button>
+            <button className="button-pink" data-aos="fade-left">
+              Envoyer
+            </button>
             {done && (
               <h2 className="contact__message" data-aos="fade-up">
-                Thank you {name} ! I m gonna joining you quickly !{" "}
+                Merci {name} ! Je te contact rapidemment.
               </h2>
             )}
           </form>
         </div>
       </div>
-      {/* <div className="portfolio__contact-image">
-        <img src={edouard5} alt="" />
-      </div> */}
     </div>
   );
 }

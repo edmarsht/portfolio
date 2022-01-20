@@ -6,7 +6,7 @@
     left: 0;
     top: 0;
     bottom: 0;
-    z-index: 10000000000;
+    z-index: 1000000000;
     background-color: rgba(0, 0, 0, 0.5);
 
     display: flex;
@@ -16,10 +16,10 @@
 }
 
 .portfolio__popup-container {
-    position: fixed;
+    position: absolute;
     z-index: 20000000000;
     width: 500px;
-    height: 650px;
+    height: 680px;
     background-color: white;
     border-radius: 20px;
     overflow: hidden;
@@ -46,14 +46,11 @@
     align-items: center;
     align-content: center;
 }
-.portfolio__popup-container-closebutton img {
-    width: 20px;
-    height: 20px;
-    margin-top: 0.2rem;
-}
+
 .portfolio__popup-container-closebutton {
     cursor: pointer;
     margin: 0.4rem 1rem;
+    font-size: 20px;
 }
 
 .portfolio-container-text {
@@ -69,6 +66,8 @@
     margin-bottom: 2.5rem;
     font-family: var(--font-family3);
     color: #523e50;
+    line-height: 25px;
+
 }
 
 

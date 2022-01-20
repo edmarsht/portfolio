@@ -6,7 +6,7 @@ function Footer() {
     <div className="hook__footer section__padding">
       <div className="hook__container-text">
         <h1 className="gradient__text" data-aos="fade-up">
-        Le plus dur c'est de le faire, ce n'est pas d'y penser.
+        Il faut se fixer des buts avant de pouvoir les atteindre.
         </h1>
         <a href="#contact"><button className="hook__footer_button" data-aos="fade-up">Contact</button></a>
       </div>

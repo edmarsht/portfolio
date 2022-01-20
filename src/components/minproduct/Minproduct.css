@@ -14,6 +14,14 @@
 
 .portfolio__product-image-min img {
   width: 100%;
+  cursor: pointer;
+}
+
+.portfolio__minproducts button {
+  display: none;
+}
+.portfolio__minproducts .portfolio__popup-container {
+  height: 580px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -26,6 +34,5 @@
   .portfolio__minproducts {
     width: 38%;
     height: 105px;
-
   }
 }
