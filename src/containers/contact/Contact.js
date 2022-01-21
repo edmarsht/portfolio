@@ -63,7 +63,7 @@ function Contact() {
         </div>
         <div className="portfolio__contact-container-form">
           <p data-aos="fade-left">
-            <strong> Quel est votre histoire ?</strong> Discutons ensemble. Toujours disponible pour des beaux projets ou des opportunités
+            <strong> Quelle est votre histoire ?</strong> Discutons ensemble. Toujours disponible pour des beaux projets ou des opportunités
             professionnelles.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>

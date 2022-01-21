@@ -34,7 +34,7 @@ function Aboutme() {
             Après avoir décroché un Master en marketing digital, j'ouvre une entreprise
             et me lance dans plus de 3 années d’expériences dans le secteur de
             la livraison qui m'ont permis d’enrichir mes compétences
-            entrepreunariales, marketing & managériales.
+            entrepreneuriales, marketing & managériales.
           </p>
           <p data-aos="fade-left">
             Après de multiples formations et projets en développement web, je

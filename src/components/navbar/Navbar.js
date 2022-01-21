@@ -11,7 +11,7 @@ function Navbar() {
     >
       <p>Call me. (+33) 06 27 13 57 23</p>
       <div className="portfolio__navbar-logo pulsate-fwd">
-        <img src={githubicon} alt="github" />
+        <a href="https://github.com/edmarsht" target="_blank"><img src={githubicon} alt="github"/></a>
       </div>
     </div>
   );
