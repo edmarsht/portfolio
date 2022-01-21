@@ -35,8 +35,8 @@ const minProducts = [
     id: 2,
     name: "Tinder",
     img: "./tinder.png",
-    // imgcut: "./tinder.png",
-    description: "J'ai reproduit ici un clone de Tinder en utilisant la stack M.E.R.N (MongoDB, Express, React, NodeJS) puis j'ai déployé le Back-end sur Heroku et le Front-end sur Firebase. Afin d'arriver à un résultat similaire, j'ai intégré une dépendance React (react-tinder-card) simulant le `swipe` de Tinder qui me permet également de connaître la direction du balayage et donc d'un `oui` ou d'un `non`."
+    imgcut: "./tindercut.png",
+    description: "J'ai reproduit Tinder en utilisant la stack M.E.R.N (MongoDB, Express, React, NodeJS). Afin d'arriver à un résultat similaire, j'ai intégré une dépendance React (react-tinder-card) simulant le `swipe` de Tinder qui me permet de connaître la direction du balayage et donc d'un `oui` ou d'un `non`."
   },
   {
     id: 3,
