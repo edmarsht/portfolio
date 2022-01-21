@@ -73,6 +73,9 @@ width: 25px;
     margin-right: 0;
     justify-content: center;
   }
+
+}
+@media screen and (max-width: 730px) {
   .portfolio__projet-container-minprojets {
     flex-wrap: wrap;
     justify-content: space-around;
