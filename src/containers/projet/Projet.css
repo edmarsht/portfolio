@@ -75,7 +75,7 @@ width: 25px;
   }
 
 }
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 883px) {
   .portfolio__projet-container-minprojets {
     flex-wrap: wrap;
     justify-content: space-around;
