@@ -13,9 +13,9 @@ function Footer() {
       <div className="hook__container-details">
         <div className="hook__container-details-1" data-aos="fade-right">
           
-          <a href="#aboutme"><h1>Edmarsht</h1></a>
+          <a href="#aboutme"><h1>Edouard Toulet</h1></a>
 
-          <p>Paris 75017, All Rights Reserved</p>
+          <p>Paris 75017</p>
         </div>
         <div className="hook__container-details-2" data-aos="fade-right">
           <h4>Menu</h4>
@@ -26,8 +26,7 @@ function Footer() {
         </div>
         <div className="hook__container-details-4" data-aos="fade-left">
           <h4>Get in touch</h4>
-          <p>Paris, 75017</p>
-          <p>(+33) 6 27 13 57 23</p>
+          <p>(+33) 06 27 13 57 23</p>
           <p>edtoulet@gmail.com</p>
         </div>
       </div>

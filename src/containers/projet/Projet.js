@@ -29,14 +29,14 @@ const minProducts = [
     name: "Spotify",
     img: "./spotify.png",
     imgcut: "./spotify.png",
-    description: "J'ai reproduit la page d'accueil de Spotify en React en y implémentant mes propres données de l'application grâce à L'API fournit par Spotify."
+    description: "Reproduction de la page d'accueil de Spotify en React en y implémentant mes propres données de l'application grâce à L'API fournit par Spotify."
   },
   {
     id: 2,
     name: "Tinder",
     img: "./tinder.png",
     imgcut: "./tindercut.png",
-    description: "J'ai reproduit Tinder en utilisant la stack M.E.R.N (MongoDB, Express, React, NodeJS). Afin d'arriver à un résultat similaire, j'ai intégré une dépendance React (react-tinder-card) simulant le `swipe` de Tinder qui me permet de connaître la direction du balayage et donc d'un `oui` ou d'un `non`."
+    description: "Reproduction de Tinder en utilisant la stack M.E.R.N (MongoDB, Express, React, NodeJS). Afin d'arriver à un résultat similaire, j'ai intégré une dépendance React (react-tinder-card) simulant le `swipe` de Tinder qui me permet de connaître la direction du balayage et donc d'un `oui` ou d'un `non`."
   },
   {
     id: 3,
