@@ -8,19 +8,19 @@ function Header() {
       <div className="portfolio__header-container">
         <div className="portfolio__header-container-title" data-aos="fade-down" data-aos-duration="800">
           <h1 className="container">
-            Edouard  <p className="highlight"> Toulet</p>
+            Edouard  <a href="#aboutme"><p className="highlight">Toulet</p></a>
           </h1>
           <h2>Développeur web</h2>
         </div>
         <div className="portfolio__header-container-menu" data-aos="fade-right" data-aos-duration="1200">
-          <a href="#aboutme" ><button>About me</button></a>
+          <a href="#aboutme"><button>About me</button></a>
           <a href="#projet"><button>Projets</button></a>
           <a href="#resume"><button>Cv</button></a>
           <a href="#contact"><button>Contact</button></a>
         </div>
       </div>
       <div className="portfolio__header-image" data-aos="zoom-in-left" data-aos-duration="1000">
-        <img src={edouard4} alt="ai" />
+        <img src={edouard4} alt="Edouard Toulet image portfolio" />
       </div>
     </div>
   );

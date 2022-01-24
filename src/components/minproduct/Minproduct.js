@@ -19,7 +19,7 @@ function Minproduct({ name, img, description, imgcut}) {
         <div className="portfolio__product-browser-circle green"></div>
       </div>
       <div className="portfolio__product-image-min" data-aos="fade-up" data-aos-duration="800">
-        <img src={img} alt="" onClick={openModal}/>
+        <img src={img} alt={name} onClick={openModal}/>
       </div>
         <Popup description={description} img={img} name={name} imgcut={imgcut} showModal={showModal} setShowModal={setShowModal}/>
     </div>

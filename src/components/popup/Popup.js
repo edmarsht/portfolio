@@ -18,7 +18,7 @@ function Popup({ description, showModal, setShowModal, name, img, imgcut, link})
               <div className="portfolio__popup-container-closebutton pulsate-fwd" onClick={() => setShowModal((prev) => !prev)}><strong>⤬</strong></div>
             </div>
 
-            <div className="portfolio-container-img">
+            <div className="portfolio-container-img" data-aos="fade-down">
               <img src={imgcut} alt={name} />
             </div>
             <div className="portfolio-container-text">

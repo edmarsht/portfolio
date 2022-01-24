@@ -75,7 +75,7 @@ function Projet() {
           ))}
         </div>
         <div className="portfolio__projet-container-info" data-aos="fade-left">
-          <img src={plus} alt="plus" className="pulsate-fwd"/>
+          <img src={plus} alt="plus de projets Edouard Toulet" className="pulsate-fwd"/>
           <h4><a href="https://github.com/edmarsht?tab=repositories" target="_blank"> Découvrir d'autres projets sur Github.</a></h4>
         </div>
       </div>

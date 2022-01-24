@@ -12,21 +12,17 @@ function Footer() {
       </div>
       <div className="hook__container-details">
         <div className="hook__container-details-1" data-aos="fade-right">
-          <h1>Edmarsht</h1>
+          
+          <a href="#aboutme"><h1>Edmarsht</h1></a>
+
           <p>Paris 75017, All Rights Reserved</p>
         </div>
         <div className="hook__container-details-2" data-aos="fade-right">
-          <h4>Links</h4>
-          <p>Overons</p>
-          <p>Social Media</p>
-          <p>Counters</p>
-          <p>Contact</p>
-        </div>
-        <div className="hook__container-details-3" data-aos="fade-left">
-          <h4>Company</h4>
-          <p>Terms & Conditions</p>
-          <p>Privacy Policy</p>
-          <p>Contact</p>
+          <h4>Menu</h4>
+          <a href="#aboutme"><p>About me</p></a>
+          <a href="#projet"><p>Projets</p></a>
+          <a href="#resume"><p>Cv</p></a>
+          <a href="#contact"><p>Contact</p></a>
         </div>
         <div className="hook__container-details-4" data-aos="fade-left">
           <h4>Get in touch</h4>
