@@ -1,6 +1,5 @@
 import React from "react";
 import "./Ocean.css";
-import arrowback from "../../assets/arrowback.svg";
 
 function Ocean() {
   return (

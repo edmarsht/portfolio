@@ -1,6 +1,5 @@
 import React from "react";
 import "./Popup.css";
-import close from "../../assets/close.png";
 
 
 function Popup({ description, showModal, setShowModal, name, img, imgcut, link}) {

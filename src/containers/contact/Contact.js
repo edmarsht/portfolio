@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import "./Contact.css";
-import edouard5 from "../../assets/edouard5.png";
+// import edouard5 from "../../assets/edouard5.png";
 import phone from "../../assets/phone.png";
 import email from "../../assets/email.png";
 import location from "../../assets/location.png";
