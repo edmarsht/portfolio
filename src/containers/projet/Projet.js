@@ -7,11 +7,13 @@ import plus from "../../assets/plus.png";
 const products = [
   {
     id: 1,
-    name: "Hook",
-    img: "./hook.png",
-    imgcut: "./hookcut.png",
-    link: "https://hook-23a60.web.app/",
-    description: "Ce site vitrine est un projet personnel complet, entièrement responsive en Reactjs.",
+    name: "Movie DB",
+    img: "./moviedb.png",
+    imgcut: "./moviedbcut.png",
+    link: "https://moviedb-b586e.web.app/",
+    description: `Création d'un projet qui permet de connaître les sites de streaming respectifs des films en exploitant l'API fournit par The Movie DB.
+    Il suffit d'y inscrire le nom d'un film pour voir sa fiche descriptive avec le synopsis, la photo, la note ainsi que le site de streaming (Netflix, Disney...).
+    J'ai ajouté une fonctionnalité de "Coup de cœur" qui permet d'enregistrer dans le local Storage notre sélection de films et d'y accéder.`,
   },
   {
     id: 2,
@@ -20,6 +22,14 @@ const products = [
     imgcut: "./amazoncut.png",
     link: "https://clone-e655c.web.app/",
   description: "J'ai ici reproduit le site Amazon en Reactjs et hébergé sur Firebase. L'application intègre toutes les principales fonctionnalités E-commerce (un système de compte et de login utilisant Firebase Authentification / des pages produit / un panier et une vérification / un système complet de payement utilisant Stripe / un historique des commandes en temps réel grâce à Firestore Database).",
+  },
+  {
+    id: 3,
+    name: "GPT-3",
+    img: "./hook.png",
+    imgcut: "./hookcut.png",
+    link: "https://hook-23a60.web.app/",
+    description: "Ce site vitrine est un projet personnel complet, entièrement responsive en Reactjs.",
   },
 ];
 
