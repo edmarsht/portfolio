@@ -67,10 +67,10 @@ function Contact() {
             professionnelles.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
-            <div class="form__group field" data-aos="fade-left">
+            <div className="form__group field" data-aos="fade-left">
               <input
                 type="input"
-                class="form__field"
+                className="form__field"
                 placeholder="Name"
                 onChange={(e) => setName(e.target.value)}
                 name="user_name"
@@ -78,35 +78,35 @@ function Contact() {
                 autoComplete="off"
                 required
               />
-              <label for="name" class="form__label">
+              <label htmlFor="name" className="form__label">
                 Prénom
               </label>
             </div>
-            <div class="form__group field" data-aos="fade-left">
+            <div className="form__group field" data-aos="fade-left">
               <input
                 type="input"
-                class="form__field"
+                className="form__field"
                 placeholder="Subject"
                 autoComplete="off"
                 name="user_subject"
                 id="subject"
                 required
               />
-              <label for="subject" class="form__label">
+              <label htmlFor="subject" className="form__label">
                 Sujet
               </label>
             </div>
-            <div class="form__group field" data-aos="fade-left">
+            <div className="form__group field" data-aos="fade-left">
               <input
                 type="input"
-                class="form__field"
+                className="form__field"
                 placeholder="Email"
                 name="user_email"
                 autoComplete="off"
                 id="email"
                 required
               />
-              <label for="email" class="form__label">
+              <label htmlFor="email" className="form__label">
                 Email
               </label>
             </div>
