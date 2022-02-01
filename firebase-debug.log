@@ -1,0 +1,31 @@
+[debug] [2022-02-01T11:22:23.809Z] ----------------------------------------------------------------------
+[debug] [2022-02-01T11:22:23.810Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2022-02-01T11:22:23.811Z] CLI Version:   10.1.2
+[debug] [2022-02-01T11:22:23.811Z] Platform:      darwin
+[debug] [2022-02-01T11:22:23.811Z] Node Version:  v16.13.0
+[debug] [2022-02-01T11:22:23.812Z] Time:          Tue Feb 01 2022 12:22:23 GMT+0100 (heure normale d’Europe centrale)
+[debug] [2022-02-01T11:22:23.813Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-01T11:22:23.861Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-01T11:22:23.861Z] > authorizing via signed-in user (edtoulet@gmail.com)
+[debug] [2022-02-01T11:22:23.861Z] [iam] checking project portfolio-4b87e for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-02-01T11:22:23.863Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-4b87e:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-02-01T11:22:24.057Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 01 Feb 2022 11:22:24 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=115","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-02-01T11:22:24.060Z] > refreshing access token with scopes: []
+[debug] [2022-02-01T11:22:24.060Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-02-01T11:22:24.151Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Tue, 01 Feb 2022 11:22:24 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-02-01T11:22:24.171Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-4b87e [none]
+[debug] [2022-02-01T11:22:24.512Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-4b87e 200
+[debug] [2022-02-01T11:22:24.512Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-4b87e {"projectId":"portfolio-4b87e","projectNumber":"946898432359","displayName":"portfolio","name":"projects/portfolio-4b87e","resources":{"hostingSite":"portfolio-4b87e"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'portfolio-4b87e'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-02-01T11:22:24.515Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-02-01T11:22:24.516Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-02-01T11:22:24.573Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Tue, 01 Feb 2022 11:22:24 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-02-01T11:22:24.591Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/portfolio-4b87e/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}

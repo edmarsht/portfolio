@@ -14,21 +14,6 @@
     white-space: nowrap;
 }
 
-.portfolio__navbar-logo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-right: 1rem;
-  align-items: center;
-  cursor: pointer;
-}
-
-.portfolio__navbar-logo img {
-  width: 25px;
-  margin-right: 1rem;
-  filter: invert(25%) sepia(21%) saturate(602%) hue-rotate(256deg) brightness(89%) contrast(86%);
-}
-
 /**
  * ----------------------------------------
  * Responsive
