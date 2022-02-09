@@ -9,7 +9,7 @@ const products = [
     id: 1,
     name: "Movie DB",
     img: "./moviedb.jpg",
-    imgcut: "./moviedbcut.png",
+    imgcut: "./moviedbcut.jpg",
     link: "https://moviedb-b586e.web.app/",
     description: `Création d'un projet qui permet de connaître les sites de streaming respectifs des films en exploitant l'API fournit par The Movie DB.
     Il suffit d'y inscrire le nom d'un film pour voir sa fiche descriptive avec le synopsis, la photo, la note ainsi que le site de streaming (Netflix, Disney...).
@@ -19,7 +19,7 @@ const products = [
     id: 2,
     name: "Amazon",
     img: "./amazon.jpg",
-    imgcut: "./amazoncut.png",
+    imgcut: "./amazoncut.jpg",
     link: "https://clone-e655c.web.app/",
   description: "J'ai ici reproduit le site Amazon en Reactjs et hébergé sur Firebase. L'application intègre toutes les principales fonctionnalités E-commerce (un système de compte et de login utilisant Firebase Authentification / des pages produit / un panier et une vérification / un système complet de payement utilisant Stripe / un historique des commandes en temps réel grâce à Firestore Database).",
   },
@@ -27,7 +27,7 @@ const products = [
     id: 3,
     name: "GPT-3",
     img: "./hook.jpg",
-    imgcut: "./hookcut.png",
+    imgcut: "./hookcut.jpg",
     link: "https://hook-23a60.web.app/",
     description: "Ce site vitrine est un projet personnel complet, entièrement responsive en Reactjs.",
   },
@@ -37,22 +37,22 @@ const minProducts = [
   {
     id: 1,
     name: "Spotify",
-    img: "./spotify.png",
-    imgcut: "./spotify.png",
+    img: "./spotify.jpg",
+    imgcut: "./spotify.jpg",
     description: "Reproduction de la page d'accueil de Spotify en React en y implémentant mes propres données de l'application grâce à L'API fournit par Spotify."
   },
   {
     id: 2,
     name: "Tinder",
-    img: "./tinder.png",
-    imgcut: "./tindercut.png",
+    img: "./tinder.jpg",
+    imgcut: "./tindercut.jpg",
     description: "Reproduction de Tinder en utilisant la stack M.E.R.N (MongoDB, Express, React, NodeJS). Afin d'arriver à un résultat similaire, j'ai intégré une dépendance React (react-tinder-card) simulant le `swipe` de Tinder qui me permet de connaître la direction du balayage et donc d'un `oui` ou d'un `non`."
   },
   {
     id: 3,
     name: "To Do App",
-    img: "./todoapp.png",
-    imgcut: "./todoapp.png",
+    img: "./todoapp.jpg",
+    imgcut: "./todoapp.jpg",
     description: "Une To Do List app en Reactjs intégrant toutes les fonctionnalités d'un CRUD (Create Read Update Delete). J'ai hébérgé l'application sur Firebase et la base de donnée en temps réel sur Firestore."
   },
   {
