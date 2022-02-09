@@ -63,7 +63,8 @@ function Contact() {
         </div>
         <div className="portfolio__contact-container-form">
           <p data-aos="fade-left">
-            <strong> Quelle est votre histoire ?</strong> Discutons ensemble. Toujours disponible pour des beaux projets ou des opportunités
+            <strong> Quelle est votre histoire ?</strong> Discutons ensemble.
+            Toujours disponible pour des beaux projets ou des opportunités
             professionnelles.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
@@ -110,7 +111,12 @@ function Contact() {
                 Email
               </label>
             </div>
-            <textarea rows="5" name="message" data-aos="fade-left"></textarea>
+            <textarea
+              rows="5"
+              name="message"
+              id="other_information"
+              data-aos="fade-left"
+            ></textarea>
             <button className="button-pink" data-aos="fade-left">
               Envoyer
             </button>
