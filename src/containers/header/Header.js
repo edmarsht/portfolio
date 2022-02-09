@@ -20,7 +20,7 @@ function Header() {
         </div>
       </div>
       <div className="portfolio__header-image" data-aos="zoom-in-left" data-aos-duration="1000">
-        <img src={edouard4} alt="Edouard Toulet image portfolio" />
+        <img src={edouard4} loading="eager" alt="Edouard Toulet image portfolio" />
       </div>
     </div>
   );

@@ -17,7 +17,7 @@ function Product({ name, img, link, description, imgcut}) {
           <div className="portfolio__product-browser-circle green"></div>
         </div>
         <div className="portfolio__product-image" data-aos="fade-up" data-aos-duration="800">
-            <img src={img} alt={name} onClick={openModal}/>
+            <img src={img} loading="eager" alt={name} onClick={openModal}/>
         </div>
       </div>
       <button className="portfolio__product-button" onClick={openModal}>{name}</button>
