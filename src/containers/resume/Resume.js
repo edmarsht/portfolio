@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Resume.css"
-import plus from "../../assets/cv.pdf";
+import cv_edouard_toulet from "../../assets/cv_edouard_toulet.pdf";
 
 
 function Resume() {
@@ -12,7 +12,7 @@ function Resume() {
             <h2>Téléchargez directement le CV ici. </h2>
           </div>
           <div>
-            <a href={plus} download="Cv Edouard Toulet"><button className="portfolio__resume-container-buttone button-pink">Télécharger</button></a>
+            <a href={cv_edouard_toulet} download="Cv Edouard Toulet"><button className="portfolio__resume-container-buttone button-pink">Télécharger</button></a>
           </div>
         </div>
       </div>

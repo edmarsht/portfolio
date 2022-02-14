@@ -17,11 +17,8 @@
   cursor: pointer;
 }
 
-.portfolio__minproducts button {
-  display: none;
-}
 .portfolio__minproducts .portfolio__popup-container {
-  height: 580px;
+  height: auto;
 }
 
 @media screen and (max-width: 1000px) {

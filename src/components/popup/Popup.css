@@ -19,7 +19,7 @@
     position: absolute;
     z-index: 20000000000;
     width: 500px;
-    height: 700px;
+    height: auto;
     background-color: white;
     border-radius: 20px;
     overflow: hidden;
@@ -81,7 +81,6 @@
 @media screen and (max-width: 630px) {
     .portfolio__popup-container {
         width: 85%;
-        height: 90%;
     }
   }
 

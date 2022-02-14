@@ -4,7 +4,7 @@ import { Popup } from "../../components";
 
 
 
-function Minproduct({ name, img, description, imgcut}) {
+function Minproduct({ name, img, description, imgcut, link}) {
   const [showModal, setShowModal] = useState(false)
 
   const openModal = () => {
@@ -21,7 +21,7 @@ function Minproduct({ name, img, description, imgcut}) {
       <div className="portfolio__product-image-min" data-aos="fade-up" data-aos-duration="800">
         <img src={img} loading="eager" alt={name} onClick={openModal}/>
       </div>
-        <Popup description={description} img={img} name={name} imgcut={imgcut} showModal={showModal} setShowModal={setShowModal}/>
+        <Popup description={description} img={img} name={name} imgcut={imgcut} link={link} showModal={showModal} setShowModal={setShowModal}/>
     </div>
   );
 }
