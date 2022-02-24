@@ -31,9 +31,9 @@ function Aboutme() {
           <h3 data-aos="fade-left">Développeur Front-End</h3>
           <h1 data-aos="fade-left">About Me</h1>
           <p data-aos="fade-left">
-            Après avoir décroché un Master en marketing digital, j'ouvre une
-            entreprise et me lance dans plus de 3 années d’expériences dans le
-            secteur de la livraison qui m'ont permis d’enrichir mes compétences
+            Après avoir décroché un Master en marketing digital, je me lance
+            dans un nouveau challenge et j'ouvre une entreprise dans le secteur
+            de la livraison, qui m'a permis d’enrichir mes compétences
             entrepreneuriales, marketing & managériales.
           </p>
           <p data-aos="fade-left">
