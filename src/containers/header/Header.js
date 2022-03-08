@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import edouard4 from "../../assets/edouard4.png";
+import edouard from "../../assets/edouard.png";
 
 function Header() {
   return (
@@ -20,7 +20,8 @@ function Header() {
         </div>
       </div>
       <div className="portfolio__header-image" data-aos="zoom-in-left" data-aos-duration="1000">
-        <img src={edouard4} loading="eager" alt="Edouard Toulet image portfolio" />
+        {/* <a href="https://instagram.com/kpudessine?utm_medium=copy_link" target="_blank"><img href="https://www.recyclivre.com/index.php" target="_blank" src={edouard} loading="eager" alt="Edouard Toulet image portfolio" /></a> */}
+        <a href="https://instagram.com/kpudessine?utm_medium=copy_link" target="_blank"><img src={edouard} loading="eager" alt="Edouard Toulet portfolio kpudessine" /></a>
       </div>
     </div>
   );

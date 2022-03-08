@@ -174,7 +174,7 @@ form button {
     margin-bottom: 5rem;
   }
   .portfolio__contact-container-form {
-   margin-top: 6rem;
+    margin-top: 6rem;
   }
   .portfolio__contact-container-form p {
     width: 80%;
@@ -192,5 +192,23 @@ form button {
 @media screen and (max-width: 550px) {
   form button {
     width: 150px;
+  }
+}
+
+
+.imagekpu {
+  position: absolute;
+  top: 300px;
+
+}
+
+.imagekpu img {
+  width: 250px;
+  height: 370px;
+}
+
+@media screen and (max-width: 1300px) {
+  .imagekpu {
+    display: none;
   }
 }

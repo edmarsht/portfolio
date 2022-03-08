@@ -86,10 +86,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .portfolio__header-image img {
-  width: 100%;
+  width: 90%;
 }
 
 /* ------------ Button css ------------------ */
