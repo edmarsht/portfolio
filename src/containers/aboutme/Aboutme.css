@@ -12,11 +12,12 @@
 }
 
 .portfolio__aboutme-container-photo {
-  flex: 1;
+  flex: 1;  
+  align-self: center; 
 }
 
 .portfolio__aboutme-container-photo img {
-  width: 80%;
+  width: 450px;
   height: 100%;
   border-radius: 15px;
   object-fit: cover;
@@ -30,6 +31,7 @@
   flex-direction: column;
   justify-content: end;
   font-family: var(--font-family3);
+
 }
 
 .portfolio__aboutme-container-text h3 {
@@ -130,8 +132,15 @@
     margin-bottom: 10rem;
   }
 }
+@media screen and (min-width: 1600px) {
+  .portfolio__aboutme-container-photo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+}
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .portfolio__aboutme-container {
     display: flex;
     flex-direction: column;
@@ -168,10 +177,10 @@
 
 @media screen and (max-width: 550px) {
   .portfolio__aboutme-container-photo img {
-    width: 300px;
+    width: 370px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
   .portfolio__aboutme-container-photo img {
     width: 100%;
   }

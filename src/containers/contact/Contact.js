@@ -4,7 +4,6 @@ import phone from "../../assets/phone.png";
 import email from "../../assets/email.png";
 import location from "../../assets/location.png";
 import emailjs from "@emailjs/browser";
-import edouard from "../../assets/edouard8.png";
 
 function Contact() {
   const formRef = useRef();
@@ -54,16 +53,12 @@ function Contact() {
             <p>edtoulet@gmail.com</p>
           </div>
           <div
-            className="portfolio__contact-container-info-item"
+            clas
+            sName="portfolio__contact-container-info-item"
             data-aos="fade-right"
           >
             <img src={location} alt="location" />
             <p>Asnières sur Seine, 92600</p>
-          </div>
-          <div className="imagekpu">
-            <a href="https://instagram.com/kpudessine?utm_medium=copy_link" target="_blank">
-            <img src={edouard} alt="edouard toulet portfolio kpudessine" />
-            </a>
           </div>
         </div>
         <div className="portfolio__contact-container-form">
