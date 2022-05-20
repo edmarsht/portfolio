@@ -9,7 +9,7 @@ const products = [
     id: 1,
     name: "NFT",
     img: "./nft.jpg",
-    imgcut: "./nft.jpg",
+    imgcut: "./nftcut.jpg",
     link: "https://nft-app-d1bf6.web.app/",
     description: "Une app React utilisant l'API TMBD. Je souhaitais pouvoir accéder rapidement à n'importe quel film dans l'objectif de trouver la plateforme où le regarder (Netflix, Canal +, Disney ...), synopsis, note avec possibilité d'enregistrer une sélection dans le localStorage et d'y accéder.",
   },

@@ -61,7 +61,7 @@
 }
 
 .portfolio__product-image img:hover {
-  transform: translateY(-20%);
+  transform: translateY(-70%);
 }
 
 @media screen and (max-width: 750px) {
@@ -81,6 +81,10 @@
   }
   .portfolio__product-button {
       margin-bottom: 2rem;
+  }
+
+  .portfolio__product-image img:hover {
+    transform: translateY(0);
   }
 
 }
