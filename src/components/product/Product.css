@@ -18,6 +18,9 @@
   text-align: center;
   border: 0.1px solid #b7b7b7;
   background: rgb(243, 242, 242);
+  flex-wrap: wrap;
+
+
 }
 
 .portfolio__product-browser {
@@ -58,7 +61,7 @@
 }
 
 .portfolio__product-image img:hover {
-  transform: translateY(-70%);
+  transform: translateY(-20%);
 }
 
 @media screen and (max-width: 750px) {

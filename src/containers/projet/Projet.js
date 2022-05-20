@@ -7,6 +7,22 @@ import plus from "../../assets/plus.png";
 const products = [
   {
     id: 1,
+    name: "NFT",
+    img: "./nft.jpg",
+    imgcut: "./nft.jpg",
+    link: "https://nft-app-d1bf6.web.app/",
+    description: "Une app React utilisant l'API TMBD. Je souhaitais pouvoir accéder rapidement à n'importe quel film dans l'objectif de trouver la plateforme où le regarder (Netflix, Canal +, Disney ...), synopsis, note avec possibilité d'enregistrer une sélection dans le localStorage et d'y accéder.",
+  },
+  {
+    id: 2,
+    name: "Yapero",
+    img: "./yapero.jpg",
+    imgcut: "./yaperocut.jpg",
+    link: "https://yapero.com/",
+    description: "Une app React utilisant l'API TMBD. Je souhaitais pouvoir accéder rapidement à n'importe quel film dans l'objectif de trouver la plateforme où le regarder (Netflix, Canal +, Disney ...), synopsis, note avec possibilité d'enregistrer une sélection dans le localStorage et d'y accéder.",
+  },
+  {
+    id: 3,
     name: "Movie DB",
     img: "./moviedb.jpg",
     imgcut: "./moviedbcut.jpg",
@@ -14,7 +30,7 @@ const products = [
     description: "Une app React utilisant l'API TMBD. Je souhaitais pouvoir accéder rapidement à n'importe quel film dans l'objectif de trouver la plateforme où le regarder (Netflix, Canal +, Disney ...), synopsis, note avec possibilité d'enregistrer une sélection dans le localStorage et d'y accéder.",
   },
   {
-    id: 2,
+    id: 4,
     name: "Amazon",
     img: "./amazon.jpg",
     imgcut: "./amazoncut.jpg",
@@ -54,37 +70,36 @@ const minProducts = [
     link: "https://todo-app-908e1.web.app/",
     description: "Une To Do List app en Reactjs intégrant toutes les fonctionnalités d'un CRUD (Create Read Update Delete). J'ai hébérgé l'application sur Firebase et la base de donnée en temps réel sur Firestore."
   },
-
   {
     id: 5,
-    name: "Pokédex",
-    img: "./pokedex.jpg",
-    imgcut: "./pokedex.jpg",
-    link: "https://pokedex-d4d4b.web.app/",
-    description: "Reproduction d'un emblème culte de ma jeunesse, un Pokédex ! grâce à l'API PokéAPI "
-  },
-  {
-    id: 6,
     name: "Mario",
     img: "./mario.jpg",
     imgcut: "./mario.jpg",
     description: "3 niveaux inspirés du célèbre jeu vidéo Mario. L'application est développé en Javascript et utilise une librairie (Kaboom.js). Ici, nous avons la possibilité, grâce aux touches du clavier, de se déplacer et de sauter les obstacles dans l'objectif d'arriver au drapeau."
   },
   {
-    id: 7,
+    id: 6,
     name: "Face API JS",
     img: "./faceapi.jpg",
     imgcut: "./faceapi.jpg",
     description: "Une app js de reconnaissance faciale exploitant l'API FaceAPI. Le programme identifie un visage en temps réel ainsi que certaines expressions (colère, joie, tristesse, peur...)"
   },
-  {
-    id: 8,
-    name: "Auth",
-    img: "./auth.jpg",
-    imgcut: "./auth.jpg",
-    link: "https://auth-firebase-640b5.web.app/",
-    description: "Une app React d'authentification utilisant Firebase et incluant des routes privées."
-  },
+    // {
+  //   id: 5,
+  //   name: "Pokédex",
+  //   img: "./pokedex.jpg",
+  //   imgcut: "./pokedex.jpg",
+  //   link: "https://pokedex-d4d4b.web.app/",
+  //   description: "Reproduction d'un emblème culte de ma jeunesse, un Pokédex ! grâce à l'API PokéAPI "
+  // },
+  // {
+  //   id: 8,
+  //   name: "Auth",
+  //   img: "./auth.jpg",
+  //   imgcut: "./auth.jpg",
+  //   link: "https://auth-firebase-640b5.web.app/",
+  //   description: "Une app React d'authentification utilisant Firebase et incluant des routes privées."
+  // },
 ];
 
 function Projet() {
