@@ -71,7 +71,7 @@
 
   .portfolio__product {
     height: 400px;
-    margin: 2rem 1rem;
+    margin: 2rem 0rem;
   }
   .portfolio__product-browser-circle {
     width: 5px;
