@@ -48,6 +48,7 @@
 .portfolio__aboutme-container-text p {
   color: #523e50;
   line-height: 25px;
+  text-align: center;
 }
 
 .portfolio__aboutme-container-text h4 {
