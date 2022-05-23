@@ -65,16 +65,13 @@
 width: 25px;
 }
 
-@media screen and (max-width: 530px) {
-  .portfolio__projet-container {
-    margin-top: 4rem;
-  }
-  .portfolio__projet-container-text {
-    margin-bottom: 4rem;
-  }
-  .portfolio__projet-container-info {
-    margin-right: 0;
-    justify-content: center;
+
+
+/* ----------------------------- Responsive  */
+@media screen and (max-width: 1410px) {
+  .portfolio__projet-container-minprojets {
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
 
@@ -87,9 +84,16 @@ width: 25px;
     margin-top: 1rem;
   }
 }
-@media screen and (max-width: 1050px) {
-  .portfolio__projet-container-minprojets {
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+
+@media screen and (max-width: 530px) {
+  .portfolio__projet-container {
+    margin-top: 4rem;
+  }
+  .portfolio__projet-container-text {
+    margin-bottom: 4rem;
+  }
+  .portfolio__projet-container-info {
+    margin-right: 0;
+    justify-content: center;
+  }
 }

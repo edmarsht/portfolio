@@ -47,7 +47,7 @@
 .portfolio__aboutme-container-text p {
   color: #523e50;
   line-height: 25px;
-  text-align: center;
+  text-align: justify;
 }
 
 .portfolio__aboutme-container-text h4 {
@@ -145,6 +145,10 @@
     display: flex;
     flex-direction: column;
     padding-top: 8rem;
+  }
+
+  .portfolio__aboutme-container-text p {
+    text-align: center;
   }
 
   .portfolio__aboutme-line {

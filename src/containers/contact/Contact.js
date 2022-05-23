@@ -53,8 +53,7 @@ function Contact() {
             <p>edtoulet@gmail.com</p>
           </div>
           <div
-            clas
-            sName="portfolio__contact-container-info-item"
+            className="portfolio__contact-container-info-item"
             data-aos="fade-right"
           >
             <img src={location} alt="location" />

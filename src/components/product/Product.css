@@ -4,6 +4,7 @@
   justify-content: center;
   width: 40%;
   align-items: center;
+  padding-bottom: 2rem;
 }
 
 .portfolio__product {
@@ -67,6 +68,8 @@
 @media screen and (max-width: 750px) {
   .product {
     width: 100%;
+    padding-bottom: 1rem;
+
   }
 
   .portfolio__product {

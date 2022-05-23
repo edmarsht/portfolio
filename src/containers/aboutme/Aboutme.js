@@ -28,8 +28,8 @@ function Aboutme() {
             ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
           </div>
 
+          <h1 data-aos="fade-left">Mon Histoire</h1>
           <h3 data-aos="fade-left">Développeur Front-End</h3>
-          <h1 data-aos="fade-left">About Me</h1>
           <p data-aos="fade-left">
             Après avoir décroché un Master en marketing digital, je me lance
             dans un nouveau challenge et j'ouvre une entreprise dans le secteur

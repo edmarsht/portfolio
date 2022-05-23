@@ -7,14 +7,6 @@ import plus from "../../assets/plus.png";
 const products = [
   {
     id: 1,
-    name: "NFT",
-    img: "./nft.jpg",
-    imgcut: "./nftcut.jpg",
-    link: "https://nft-app-d1bf6.web.app/",
-    description: "Une app React utilisant l'API TMBD. Je souhaitais pouvoir accéder rapidement à n'importe quel film dans l'objectif de trouver la plateforme où le regarder (Netflix, Canal +, Disney ...), synopsis, note avec possibilité d'enregistrer une sélection dans le localStorage et d'y accéder.",
-  },
-  {
-    id: 2,
     name: "Yapero",
     img: "./yapero.jpg",
     imgcut: "./yaperocut.jpg",
@@ -22,11 +14,11 @@ const products = [
     description: "Une app React utilisant l'API TMBD. Je souhaitais pouvoir accéder rapidement à n'importe quel film dans l'objectif de trouver la plateforme où le regarder (Netflix, Canal +, Disney ...), synopsis, note avec possibilité d'enregistrer une sélection dans le localStorage et d'y accéder.",
   },
   {
-    id: 3,
-    name: "Movie DB",
-    img: "./moviedb.jpg",
-    imgcut: "./moviedbcut.jpg",
-    link: "https://moviedb-b586e.web.app/",
+    id: 2,
+    name: "NFT",
+    img: "./nft.jpg",
+    imgcut: "./nftcut.jpg",
+    link: "https://nft-app-d1bf6.web.app/",
     description: "Une app React utilisant l'API TMBD. Je souhaitais pouvoir accéder rapidement à n'importe quel film dans l'objectif de trouver la plateforme où le regarder (Netflix, Canal +, Disney ...), synopsis, note avec possibilité d'enregistrer une sélection dans le localStorage et d'y accéder.",
   },
   {
@@ -37,22 +29,30 @@ const products = [
     link: "https://clone-e655c.web.app/",
   description: "J'ai ici reproduit le site Amazon en Reactjs et hébergé sur Firebase. L'application intègre toutes les principales fonctionnalités E-commerce (un système de compte et de login utilisant Firebase Authentification / des pages produit / un panier et une vérification / un système complet de payement utilisant Stripe / un historique des commandes en temps réel grâce à Firestore Database).",
   },
+  {
+    id: 3,
+    name: "Movie DB",
+    img: "./moviedb.jpg",
+    imgcut: "./moviedbcut.jpg",
+    link: "https://moviedb-b586e.web.app/",
+    description: "Une app React utilisant l'API TMBD. Je souhaitais pouvoir accéder rapidement à n'importe quel film dans l'objectif de trouver la plateforme où le regarder (Netflix, Canal +, Disney ...), synopsis, note avec possibilité d'enregistrer une sélection dans le localStorage et d'y accéder.",
+  },
 ];
 
 const minProducts = [
   {
     id: 1,
-    name: "Tinder",
-    img: "./tinder.jpg",
-    imgcut: "./tindercut.jpg",
-    description: "Reproduction de Tinder en utilisant la stack M.E.R.N (MongoDB, Express, React, NodeJS). Afin d'arriver à un résultat similaire, j'ai intégré une dépendance React (react-tinder-card) simulant le `swipe` de Tinder qui me permet de connaître la direction du balayage et donc d'un `oui` ou d'un `non`."
-  },
-  {
-    id: 2,
     name: "Spotify",
     img: "./spotify.jpg",
     imgcut: "./spotify.jpg",
     description: "Reproduction de la page d'accueil de Spotify en React en y implémentant mes propres données de l'application grâce à L'API fournit par Spotify."
+  },
+  {
+    id: 2,
+    name: "Tinder",
+    img: "./tinder.jpg",
+    imgcut: "./tindercut.jpg",
+    description: "Reproduction de Tinder en utilisant la stack M.E.R.N (MongoDB, Express, React, NodeJS). Afin d'arriver à un résultat similaire, j'ai intégré une dépendance React (react-tinder-card) simulant le `swipe` de Tinder qui me permet de connaître la direction du balayage et donc d'un `oui` ou d'un `non`."
   },
   {
     id: 3,
@@ -109,7 +109,7 @@ function Projet() {
         <div className="portfolio__projet-container-text" data-aos="fade-down" data-aos-anchor-placement="center-bottom" data-aos-duration="800">
           <h1>Create & Inspire. It's Edmarsht</h1>
           <p>
-            Découvrez une seléction de quelques-uns de mes projets préférés. Ces projets sont soit des réalisations personnelles ou professionnelles soit des reproductions de site web connus.  
+            Découvrez une sélection de quelques-uns de mes projets préférés qui sont soit des réalisations professionnelles, personnelles ou bien des reproductions de site web connus.  
           </p>
         </div>
         <div className="portfolio__projet-container-projets">

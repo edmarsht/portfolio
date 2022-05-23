@@ -13,10 +13,10 @@ function Header() {
           <h2>Développeur web / React Js</h2>
         </div>
         <div className="portfolio__header-container-menu" data-aos="fade-right" data-aos-duration="1200">
-          <a href="#aboutme"><button>About me</button></a>
-          <a href="#projet"><button>Projets</button></a>
-          <a href="#resume"><button>Cv</button></a>
-          <a href="#contact"><button>Contact</button></a>
+          <a href="#aboutme"><button>Mon Histoire</button></a>
+          <a href="#projet"><button>Mes Projets</button></a>
+          <a href="#resume"><button>Mon Cv</button></a>
+          <a href="#contact"><button>Me Contacter</button></a>
         </div>
       </div>
       <div className="portfolio__header-image" data-aos="zoom-in-left" data-aos-duration="1000">
