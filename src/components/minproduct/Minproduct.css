@@ -32,9 +32,3 @@
     height: 105px;
   }
 }
-@media screen and (max-width: 450px) {
-  .portfolio__minproducts {
-    width: 80%;
-    height: 140px;
-  }
-} 

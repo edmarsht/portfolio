@@ -54,8 +54,10 @@ background-image: linear-gradient(180deg, #e0fff4 0%, #ebefff 70%);
 
 @media screen and (max-width: 550px) {
   .section__padding {
-    padding: 4rem 2rem;
+    padding: 4rem 1.5rem;
   }
+
+  
 
   .section__margin {
     margin: 4rem .2rem;

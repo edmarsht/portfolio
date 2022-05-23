@@ -12,8 +12,8 @@
 }
 
 .portfolio__aboutme-container-photo {
-  flex: 1;  
-  align-self: center; 
+  flex: 1;
+  align-self: center;
 }
 
 .portfolio__aboutme-container-photo img {
@@ -31,7 +31,6 @@
   flex-direction: column;
   justify-content: end;
   font-family: var(--font-family3);
-
 }
 
 .portfolio__aboutme-container-text h3 {
@@ -181,8 +180,10 @@
     width: 370px;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 500px) {
   .portfolio__aboutme-container-photo img {
     width: 100%;
+    box-shadow: none;
   }
+
 }
