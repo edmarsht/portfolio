@@ -11,7 +11,7 @@ const products = [
     img: "./yapero.jpg",
     imgcut: "./yaperocut.jpg",
     link: "https://yapero.com/",
-    description: "Une app React utilisant l'API TMBD. Je souhaitais pouvoir accéder rapidement à n'importe quel film dans l'objectif de trouver la plateforme où le regarder (Netflix, Canal +, Disney ...), synopsis, note avec possibilité d'enregistrer une sélection dans le localStorage et d'y accéder.",
+    description: "Yapero est une plateforme de livraison de vins, bières et spiritueux livrés en 30 minutes et à température de dégustation aux utilisateurs. J’ai réalisé l’UI/UX Design du site internet ainsi que son développement Front en collaboration avec un dev full stack.",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const products = [
     img: "./nft.jpg",
     imgcut: "./nftcut.jpg",
     link: "https://nft-app-d1bf6.web.app/",
-    description: "Une app React utilisant l'API TMBD. Je souhaitais pouvoir accéder rapidement à n'importe quel film dans l'objectif de trouver la plateforme où le regarder (Netflix, Canal +, Disney ...), synopsis, note avec possibilité d'enregistrer une sélection dans le localStorage et d'y accéder.",
+    description: `J’ai utilisé Thirdweb pour gérer ce projet web 3.0 et créer le Back-end nécessaire à une application Ethereum, basée sur la blockchain. Ce projet exploite des NFT (au préalable "mintés" dans une collection Thirdweb) connectés à OpenSea.`,
   },
   {
     id: 4,

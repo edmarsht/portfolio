@@ -29,21 +29,21 @@ function Aboutme() {
           </div>
 
           <h1 data-aos="fade-left">Mon Histoire</h1>
-          <h3 data-aos="fade-left">Développeur Front-End</h3>
+          <h3 data-aos="fade-left">Intégrateur Web / Dev Front React</h3>
           <p data-aos="fade-left">
-            Après avoir décroché un Master en marketing digital, je me lance
-            dans un nouveau challenge et j'ouvre une entreprise dans le secteur
-            de la livraison, qui m'a permis d’enrichir mes compétences
-            entrepreneuriales, marketing & managériales.
+            Entrepreneur et développeur avec plus de 2 ans d'expérience dans le
+            monde de la programmation web.
           </p>
           <p data-aos="fade-left">
-            Après de multiples formations et projets en développement web, je
-            suis capable aujourd'hui d'apporter une réelle valeur ajoutée
-            pluri-disciplinaires à une entreprise où m'épanouir.
+            Je m'occupe de l'intégration web de vos maquettes desktop et mobile
+            (Figma, Adobe xd…). Également très sensible à un bel UX/UI et je
+            suis capable de créer des maquettes pour vous.
           </p>
           <p data-aos="fade-left">
-            Je travaille, en ce moment, en freelance en parallèle de ma
-            recherche de travail.
+            Je travaille actuellement en tant que freelance pour différentes
+            entreprises appartenant à différents secteurs et je serait très
+            heureux de discuter avec vous de vos projets ou d’opportunité
+            professionnelles.
           </p>
           <div
             className="portfolio__aboutme-container-yapero"
