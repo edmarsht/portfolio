@@ -11,7 +11,7 @@ const products = [
     img: "./yapero.jpg",
     imgcut: "./yaperocut.jpg",
     link: "https://yapero.com/",
-    description: "Yapero est une plateforme de livraison de vins, bières et spiritueux livrés en 30 minutes et à température de dégustation aux utilisateurs. J’ai réalisé l’UI/UX Design du site internet ainsi que son développement Front en collaboration avec un dev full stack.",
+    description: "Yapero est une plateforme de livraison de vins, bières et spiritueux livrés en 30 minutes et à température de dégustation aux utilisateurs. J’ai réalisé l’UI/UX Design du site internet, son développement Front ainsi que sa maintenance en collaboration avec un dev full stack.",
   },
   {
     id: 2,
@@ -48,14 +48,14 @@ const minProducts = [
     description: "Reproduction de la page d'accueil de Spotify en React en y implémentant mes propres données de l'application grâce à L'API fournit par Spotify."
   },
   {
-    id: 2,
+    id: 3,
     name: "Tinder",
     img: "./tinder.jpg",
     imgcut: "./tindercut.jpg",
     description: "Reproduction de Tinder en utilisant la stack M.E.R.N (MongoDB, Express, React, NodeJS). Afin d'arriver à un résultat similaire, j'ai intégré une dépendance React (react-tinder-card) simulant le `swipe` de Tinder qui me permet de connaître la direction du balayage et donc d'un `oui` ou d'un `non`."
   },
   {
-    id: 3,
+    id: 4,
     name: "GPT-3",
     img: "./hook.jpg",
     imgcut: "./hookcut.jpg",
@@ -63,19 +63,12 @@ const minProducts = [
     description: "Ce site vitrine est un projet personnel complet, entièrement responsive en Reactjs.",
   },
   {
-    id: 4,
+    id: 5,
     name: "To Do App",
     img: "./todoapp.jpg",
     imgcut: "./todoapp.jpg",
     link: "https://todo-app-908e1.web.app/",
     description: "Une To Do List app en Reactjs intégrant toutes les fonctionnalités d'un CRUD (Create Read Update Delete). J'ai hébérgé l'application sur Firebase et la base de donnée en temps réel sur Firestore."
-  },
-  {
-    id: 5,
-    name: "Mario",
-    img: "./mario.jpg",
-    imgcut: "./mario.jpg",
-    description: "3 niveaux inspirés du célèbre jeu vidéo Mario. L'application est développé en Javascript et utilise une librairie (Kaboom.js). Ici, nous avons la possibilité, grâce aux touches du clavier, de se déplacer et de sauter les obstacles dans l'objectif d'arriver au drapeau."
   },
   {
     id: 6,
@@ -84,6 +77,13 @@ const minProducts = [
     imgcut: "./faceapi.jpg",
     description: "Une app js de reconnaissance faciale exploitant l'API FaceAPI. Le programme identifie un visage en temps réel ainsi que certaines expressions (colère, joie, tristesse, peur...)"
   },
+  // {
+  //   id: 5,
+  //   name: "Mario",
+  //   img: "./mario.jpg",
+  //   imgcut: "./mario.jpg",
+  //   description: "3 niveaux inspirés du célèbre jeu vidéo Mario. L'application est développé en Javascript et utilise une librairie (Kaboom.js). Ici, nous avons la possibilité, grâce aux touches du clavier, de se déplacer et de sauter les obstacles dans l'objectif d'arriver au drapeau."
+  // },
     // {
   //   id: 5,
   //   name: "Pokédex",
