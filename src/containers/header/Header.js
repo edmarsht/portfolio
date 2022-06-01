@@ -20,7 +20,6 @@ function Header() {
         </div>
       </div>
       <div className="portfolio__header-image" data-aos="zoom-in-left" data-aos-duration="1000">
-        {/* <a href="https://instagram.com/kpudessine?utm_medium=copy_link" target="_blank"><img href="https://www.recyclivre.com/index.php" target="_blank" src={edouard} loading="eager" alt="Edouard Toulet image portfolio" /></a> */}
         <a href="https://instagram.com/kpudessine?utm_medium=copy_link" target="_blank"><img src={edouard} loading="eager" alt="Edouard Toulet portfolio kpudessine" /></a>
       </div>
     </div>

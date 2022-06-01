@@ -71,19 +71,19 @@ const minProducts = [
     description: "Une To Do List app en Reactjs intégrant toutes les fonctionnalités d'un CRUD (Create Read Update Delete). J'ai hébérgé l'application sur Firebase et la base de donnée en temps réel sur Firestore."
   },
   {
+    id: 5,
+    name: "Mario",
+    img: "./mario.jpg",
+    imgcut: "./mario.jpg",
+    description: "3 niveaux inspirés du célèbre jeu vidéo Mario. L'application est développé en Javascript et utilise une librairie (Kaboom.js). Ici, nous avons la possibilité, grâce aux touches du clavier, de se déplacer et de sauter les obstacles dans l'objectif d'arriver au drapeau."
+  },
+  {
     id: 6,
     name: "Face API JS",
     img: "./faceapi.jpg",
     imgcut: "./faceapi.jpg",
     description: "Une app js de reconnaissance faciale exploitant l'API FaceAPI. Le programme identifie un visage en temps réel ainsi que certaines expressions (colère, joie, tristesse, peur...)"
   },
-  // {
-  //   id: 5,
-  //   name: "Mario",
-  //   img: "./mario.jpg",
-  //   imgcut: "./mario.jpg",
-  //   description: "3 niveaux inspirés du célèbre jeu vidéo Mario. L'application est développé en Javascript et utilise une librairie (Kaboom.js). Ici, nous avons la possibilité, grâce aux touches du clavier, de se déplacer et de sauter les obstacles dans l'objectif d'arriver au drapeau."
-  // },
     // {
   //   id: 5,
   //   name: "Pokédex",

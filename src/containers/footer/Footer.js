@@ -19,9 +19,9 @@ function Footer() {
         </div>
         <div className="hook__container-details-2" data-aos="fade-right">
           <h4>Menu</h4>
-          <a href="#aboutme"><p>About me</p></a>
-          <a href="#projet"><p>Projets</p></a>
-          <a href="#resume"><p>Cv</p></a>
+          <a href="#aboutme"><p>Mon Histoire</p></a>
+          <a href="#projet"><p>Mes Projets</p></a>
+          <a href="#resume"><p>Mon cv</p></a>
           <a href="#contact"><p>Contact</p></a>
         </div>
         <div className="hook__container-details-4" data-aos="fade-left">

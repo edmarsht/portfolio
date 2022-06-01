@@ -57,7 +57,7 @@ function Contact() {
             data-aos="fade-right"
           >
             <img src={location} alt="location" />
-            <p>Asnières sur Seine, 92600</p>
+            <p>Paris, 75017</p>
           </div>
         </div>
         <div className="portfolio__contact-container-form">
