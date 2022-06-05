@@ -7,6 +7,14 @@ import plus from "../../assets/plus.png";
 const products = [
   {
     id: 1,
+    name: "Hook a Lip",
+    img: "./hookalip.jpg",
+    imgcut: "./hookalipcut.jpg",
+    // link: "https://yapero.com/",
+    description: "J’ai ici crée la maquette UX/UI et développé le site Hook a Lip (en React js) pour un client. Site en cours.",
+  },
+  {
+    id: 2,
     name: "Yapero",
     img: "./yapero.jpg",
     imgcut: "./yaperocut.jpg",
@@ -22,20 +30,12 @@ const products = [
     description: `J’ai utilisé Thirdweb pour gérer ce projet web 3.0 et créer le Back-end nécessaire à une application Ethereum, basée sur la blockchain. Ce projet exploite des NFT (au préalable "mintés" dans une collection Thirdweb) connectés à OpenSea.`,
   },
   {
-    id: 4,
+    id: 3,
     name: "Amazon",
     img: "./amazon.jpg",
     imgcut: "./amazoncut.jpg",
     link: "https://clone-e655c.web.app/",
   description: "J'ai ici reproduit le site Amazon en Reactjs et hébergé sur Firebase. L'application intègre toutes les principales fonctionnalités E-commerce (un système de compte et de login utilisant Firebase Authentification / des pages produit / un panier et une vérification / un système complet de payement utilisant Stripe / un historique des commandes en temps réel grâce à Firestore Database).",
-  },
-  {
-    id: 3,
-    name: "Movie DB",
-    img: "./moviedb.jpg",
-    imgcut: "./moviedbcut.jpg",
-    link: "https://moviedb-b586e.web.app/",
-    description: "Une app React utilisant l'API TMBD. Je souhaitais pouvoir accéder rapidement à n'importe quel film dans l'objectif de trouver la plateforme où le regarder (Netflix, Canal +, Disney ...), synopsis, note avec possibilité d'enregistrer une sélection dans le localStorage et d'y accéder.",
   },
 ];
 
@@ -46,6 +46,14 @@ const minProducts = [
     img: "./spotify.jpg",
     imgcut: "./spotify.jpg",
     description: "Reproduction de la page d'accueil de Spotify en React en y implémentant mes propres données de l'application grâce à L'API fournit par Spotify."
+  },
+  {
+    id: 2,
+    name: "Movie DB",
+    img: "./moviedbcut.jpg",
+    imgcut: "./moviedbcut.jpg",
+    link: "https://moviedb-b586e.web.app/",
+    description: "Une app React utilisant l'API TMBD. Je souhaitais pouvoir accéder rapidement à n'importe quel film dans l'objectif de trouver la plateforme où le regarder (Netflix, Canal +, Disney ...), synopsis, note avec possibilité d'enregistrer une sélection dans le localStorage et d'y accéder.",
   },
   {
     id: 3,
@@ -71,19 +79,19 @@ const minProducts = [
     description: "Une To Do List app en Reactjs intégrant toutes les fonctionnalités d'un CRUD (Create Read Update Delete). J'ai hébérgé l'application sur Firebase et la base de donnée en temps réel sur Firestore."
   },
   {
-    id: 5,
+    id: 6,
     name: "Mario",
     img: "./mario.jpg",
     imgcut: "./mario.jpg",
     description: "3 niveaux inspirés du célèbre jeu vidéo Mario. L'application est développé en Javascript et utilise une librairie (Kaboom.js). Ici, nous avons la possibilité, grâce aux touches du clavier, de se déplacer et de sauter les obstacles dans l'objectif d'arriver au drapeau."
   },
-  {
-    id: 6,
-    name: "Face API JS",
-    img: "./faceapi.jpg",
-    imgcut: "./faceapi.jpg",
-    description: "Une app js de reconnaissance faciale exploitant l'API FaceAPI. Le programme identifie un visage en temps réel ainsi que certaines expressions (colère, joie, tristesse, peur...)"
-  },
+  // {
+  //   id: 6,
+  //   name: "Face API JS",
+  //   img: "./faceapi.jpg",
+  //   imgcut: "./faceapi.jpg",
+  //   description: "Une app js de reconnaissance faciale exploitant l'API FaceAPI. Le programme identifie un visage en temps réel ainsi que certaines expressions (colère, joie, tristesse, peur...)"
+  // },
     // {
   //   id: 5,
   //   name: "Pokédex",
