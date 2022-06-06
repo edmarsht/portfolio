@@ -2,13 +2,13 @@ import React from "react";
 import "./Popup.css";
 
 
-function Popup({ description, showModal, setShowModal, name, img, imgcut, link}) {
+function Popup({ description, showModal, setShowModal, name, img, imgcut, link, block, setBlock}) {
   return (
     <>
       <p>{showModal}</p>
       {showModal ? (
-        <div className="portfolio__popup">
-          <div className="portfolio__popup-container" data-aos="zoom-in" data-aos-duration="500" showModal={showModal}>
+        <div className="portfolio__popup" onClick={() => setShowModal((prev) => !prev)}>
+          <div className="portfolio__popup-container" data-aos="zoom-in" data-aos-duration="500" showModal={showModal} onClick={() => setShowModal((prev) => !prev)}>
             <div className="portfolio__popup-container-close">
               <div className="portfolio__popup-browser">
                 <div className="portfolio__product-browser-circle red circle__left pointer" onClick={() => setShowModal((prev) => !prev)}></div>

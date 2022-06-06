@@ -8,6 +8,7 @@ function Product({ name, img, link, description, imgcut}) {
   const openModal = () => {
     setShowModal(prev => !prev) 
   }
+
   return (
     <div className="product">
       <div className="portfolio__product">
