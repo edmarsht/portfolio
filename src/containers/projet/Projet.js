@@ -10,8 +10,8 @@ const products = [
     name: "Hook a Lip",
     img: "./hookalip.jpg",
     imgcut: "./hookalipcut.jpg",
-    // link: "https://yapero.com/",
-    description: "J’ai ici crée la maquette UX/UI et développé le site Hook a Lip (en React js) pour un client. Site en cours.",
+    link: "https://hook-a-lip.com/",
+    description: "Création from scratch de la maquette UX/UI et du site web pour un client en freelance. ",
   },
   {
     id: 2,
