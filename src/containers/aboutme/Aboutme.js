@@ -29,20 +29,17 @@ function Aboutme() {
           </div>
 
           <h1 data-aos="fade-left">Mon Histoire</h1>
-          <h3 data-aos="fade-left">Intégrateur Web / Dev Front React</h3>
+          <h3 data-aos="fade-left">
+            Developpeur Front-end React js / intégrateur web
+          </h3>
           <p data-aos="fade-left">
-            Entrepreneur et développeur avec plus de 2 ans d'expérience dans le
-            monde de la programmation web.
+            Entrepreneur et développeur frontend spécialisé en Javascript/ES6 /
+            React js avec plus de 3 années d'expérience. Passionné de développement
+            web je suis également très sensible à un bel UX / UI design.
           </p>
           <p data-aos="fade-left">
-            Je m'occupe de l'intégration web de vos maquettes desktop et mobile
-            (Figma, Adobe xd…). Également très sensible à un bel UX/UI et je
-            suis capable de créer des maquettes pour vous.
-          </p>
-          <p data-aos="fade-left">
-            Je travaille actuellement en tant que freelance pour différentes
-            entreprises appartenant à différents secteurs et je serait très
-            heureux de discuter avec vous de vos projets ou d’opportunité
+            Actuellement travaillant à mon compte, je serais très heureux de
+            discuter avec vous de vos projets ou de belles opportunités
             professionnelles.
           </p>
           <div
@@ -54,7 +51,7 @@ function Aboutme() {
               <img src={yapero} alt="yapero" className="pulsate-fwd" />
             </div>
             <div className="portfolio__aboutme-container-yapero-text">
-              <h4>PDG société Yapero.</h4>
+              <h4>PDG et developpeur Front-end Yapero.</h4>
               <p>
                 Service de livraison d'alcool à domicile disponible depuis 2016
                 à Marseille.{" "}

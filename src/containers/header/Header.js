@@ -10,7 +10,7 @@ function Header() {
           <h1 className="container">
             Edouard  <a href="#aboutme"><p className="highlight">Toulet</p></a>
           </h1>
-          <h2>Développeur web / React Js</h2>
+          <h2>Développeur React / Javascript</h2>
         </div>
         <div className="portfolio__header-container-menu" data-aos="fade-right" data-aos-duration="1200">
           <a href="#aboutme"><button>Mon Histoire</button></a>
