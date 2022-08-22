@@ -117,7 +117,7 @@ function Projet() {
         <div className="portfolio__projet-container-text" data-aos="fade-down" data-aos-anchor-placement="center-bottom" data-aos-duration="800">
           <h1>Create & Inspire. It's Edmarsht</h1>
           <p>
-            Découvrez une sélection de quelques-uns de mes projets préférés qui sont soit des réalisations professionnelles, personnelles ou bien des reproductions de site web connus.  
+            Découvrez une sélection de quelques-uns de mes projets préférés qui sont soit des réalisations professionnelles, personnelles ou bien des reproductions fonctionnelles de site web connus.  
           </p>
         </div>
         <div className="portfolio__projet-container-projets">
