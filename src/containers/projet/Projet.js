@@ -50,8 +50,8 @@ const minProducts = [
   {
     id: 2,
     name: "Movie DB",
-    img: "./moviedbcut.jpg",
-    imgcut: "./moviedbcut.jpg",
+    img: "./moviedb.jpg",
+    imgcut: "./moviedb.jpg",
     link: "https://moviedb-b586e.web.app/",
     description: "Une app React utilisant l'API TMBD. Je souhaitais pouvoir accéder rapidement à n'importe quel film dans l'objectif de trouver la plateforme où le regarder (Netflix, Canal +, Disney ...), synopsis, note avec possibilité d'enregistrer une sélection dans le localStorage et d'y accéder.",
   },
