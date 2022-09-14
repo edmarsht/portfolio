@@ -51,7 +51,7 @@ const minProducts = [
     imgcut: "./fitness.jpg",
     link: "https://fitnessclub-b39f2.web.app/",
     description:
-      "Reproduction de la page d'accueil de Spotify en React en y implémentant mes propres données de l'application grâce à L'API fournit par Spotify.",
+    "Création d'une application d'exercices de sport utilisant l'API ExerciseDB."
   },
   {
     id: 2,
@@ -59,7 +59,7 @@ const minProducts = [
     img: "./chat.jpg",
     imgcut: "./chat.jpg",
     description:
-      "Reproduction d'une messagerie instantanée fonctionnelle, avec création de compte et authentification d'utilisateur. L'application permet donc de communiquer avec d'autres utilisateurs s'étant enregistrés. Les utilisateurs et les conversations sont stockés sur firestore et l'authentification est géré par firebase auth.",
+      "Création d'une messagerie instantanée fonctionnelle, avec création de compte et authentification d'utilisateur. L'application permet donc de communiquer avec d'autres utilisateurs s'étant enregistrés. Les utilisateurs et les conversations sont stockés sur firestore et l'authentification est géré par firebase auth.",
   },
   {
     id: 3,
