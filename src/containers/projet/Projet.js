@@ -55,11 +55,12 @@ const minProducts = [
   },
   {
     id: 2,
-    name: "Chat",
-    img: "./chat.jpg",
-    imgcut: "./chat.jpg",
+    name: "Share",
+    img: "./share.jpg",
+    imgcut: "./share.jpg",
+    link: "https://shareme-edouard.netlify.app/",
     description:
-      "Création d'une messagerie instantanée fonctionnelle, avec création de compte et authentification d'utilisateur. L'application permet donc de communiquer avec d'autres utilisateurs s'étant enregistrés. Les utilisateurs et les conversations sont stockés sur firestore et l'authentification est géré par firebase auth.",
+      "Création d'un reseau social où l'on peut s'authentifier et poster des images partagées avec les autres utilisateurs. J'ai ici utilisé Sanity pour le backend et reactjs pour le frontend.",
   },
   {
     id: 3,
@@ -114,6 +115,14 @@ const minProducts = [
   },
   {
     id: 9,
+    name: "Chat",
+    img: "./chat.jpg",
+    imgcut: "./chat.jpg",
+    description:
+      "Création d'une messagerie instantanée fonctionnelle, avec création de compte et authentification d'utilisateur. L'application permet donc de communiquer avec d'autres utilisateurs s'étant enregistrés. Les utilisateurs et les conversations sont stockés sur firestore et l'authentification est géré par firebase auth.",
+  },
+  {
+    id: 10,
     name: "Auth",
     img: "./auth.jpg",
     imgcut: "./auth.jpg",
