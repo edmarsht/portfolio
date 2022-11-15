@@ -46,15 +46,24 @@ const products = [
 const minProducts = [
   {
     id: 1,
+    name: "Headphones",
+    img: "./headphones.jpg",
+    imgcut: "./headphones.jpg",
+    link: "https://headphones-3e8d.vercel.app/",
+    description:
+      "Création d'un site de vente d'écouteurs incluant les principales features e-commerce à savoir l'ajout, la modification de quantité et la suppression de produit dans le panier avec la fonctionnalité de payement (Stripe). J'ai utilisé Sanity pour gérer les produits et les manipuler dans un dahsboard organisé.",
+  },
+  {
+    id: 2,
     name: "FitnessClub",
     img: "./fitness.jpg",
     imgcut: "./fitness.jpg",
     link: "https://fitnessclub-b39f2.web.app/",
     description:
-    "Création d'une application d'exercices de sport utilisant l'API ExerciseDB."
+      "Création d'une application d'exercices de sport utilisant l'API ExerciseDB.",
   },
   {
-    id: 2,
+    id: 3,
     name: "Share",
     img: "./share.jpg",
     imgcut: "./share.jpg",
@@ -63,7 +72,7 @@ const minProducts = [
       "Création d'un reseau social où l'on peut s'authentifier et poster des images partagées avec les autres utilisateurs. J'ai ici utilisé Sanity pour le backend et reactjs pour le frontend.",
   },
   {
-    id: 3,
+    id: 4,
     name: "Spotify",
     img: "./spotify.jpg",
     imgcut: "./spotify.jpg",
@@ -71,7 +80,7 @@ const minProducts = [
       "Reproduction de la page d'accueil de Spotify en React en y implémentant mes propres données de l'application grâce à L'API fournit par Spotify.",
   },
   {
-    id: 4,
+    id: 5,
     name: "Movie DB",
     img: "./moviedb.jpg",
     imgcut: "./moviedb.jpg",
@@ -80,7 +89,7 @@ const minProducts = [
       "Une app React utilisant l'API TMBD. Je souhaitais pouvoir accéder rapidement à n'importe quel film dans l'objectif de trouver la plateforme où le regarder (Netflix, Canal +, Disney ...), synopsis, note avec possibilité d'enregistrer une sélection dans le localStorage et d'y accéder.",
   },
   {
-    id: 5,
+    id: 6,
     name: "Tinder",
     img: "./tinder.jpg",
     imgcut: "./tindercut.jpg",
@@ -88,16 +97,16 @@ const minProducts = [
       "Reproduction de Tinder en utilisant la stack M.E.R.N (MongoDB, Express, React, NodeJS). Afin d'arriver à un résultat similaire, j'ai intégré une dépendance React (react-tinder-card) simulant le `swipe` de Tinder qui me permet de connaître la direction du balayage et donc d'un `oui` ou d'un `non`.",
   },
   {
-    id: 6,
+    id: 7,
     name: "GPT-3",
     img: "./hook.jpg",
     imgcut: "./hookcut.jpg",
     link: "https://hook-23a60.web.app/",
     description:
-      "Ce site vitrine est un projet personnel complet, entièrement responsive en Reactjs.",
+      "J'ai d'abord crée la maquette (AdobeXd) et ensuite développé le site en React.js",
   },
   {
-    id: 7,
+    id: 8,
     name: "To Do App",
     img: "./todoapp.jpg",
     imgcut: "./todoapp.jpg",
@@ -106,7 +115,7 @@ const minProducts = [
       "Une To Do List app en Reactjs intégrant toutes les fonctionnalités d'un CRUD (Create Read Update Delete). J'ai hébérgé l'application sur Firebase et la base de donnée en temps réel sur Firestore.",
   },
   {
-    id: 8,
+    id: 9,
     name: "Mario",
     img: "./mario.jpg",
     imgcut: "./mario.jpg",
@@ -114,21 +123,12 @@ const minProducts = [
       "3 niveaux inspirés du célèbre jeu vidéo Mario. L'application est développé en Javascript et utilise une librairie (Kaboom.js). Ici, nous avons la possibilité, grâce aux touches du clavier, de se déplacer et de sauter les obstacles dans l'objectif d'arriver au drapeau.",
   },
   {
-    id: 9,
+    id: 10,
     name: "Chat",
     img: "./chat.jpg",
     imgcut: "./chat.jpg",
     description:
       "Création d'une messagerie instantanée fonctionnelle, avec création de compte et authentification d'utilisateur. L'application permet donc de communiquer avec d'autres utilisateurs s'étant enregistrés. Les utilisateurs et les conversations sont stockés sur firestore et l'authentification est géré par firebase auth.",
-  },
-  {
-    id: 10,
-    name: "Auth",
-    img: "./auth.jpg",
-    imgcut: "./auth.jpg",
-    link: "https://auth-firebase-640b5.web.app/",
-    description:
-      "Une app React d'authentification utilisant Firebase et incluant des routes privées.",
   },
 ];
 
@@ -162,17 +162,17 @@ function Projet() {
           ))}
         </div>
         <div className="portfolio__projet-container-minprojets">
-            {" "}
-            {minProducts.map((item) => (
-              <Minproduct
-                key={item.id}
-                name={item.name}
-                img={item.img}
-                description={item.description}
-                imgcut={item.imgcut}
-                link={item.link}
-              />
-            ))}
+          {" "}
+          {minProducts.map((item) => (
+            <Minproduct
+              key={item.id}
+              name={item.name}
+              img={item.img}
+              description={item.description}
+              imgcut={item.imgcut}
+              link={item.link}
+            />
+          ))}
         </div>
         <div className="portfolio__projet-container-info" data-aos="fade-left">
           <img
