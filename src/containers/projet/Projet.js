@@ -25,7 +25,7 @@ const products = [
       "Yapero est une plateforme de livraison de vins, bières et spiritueux livrés en 30 minutes et à température de dégustation aux utilisateurs. J’ai réalisé l’UI/UX Design du site internet, son développement Front ainsi que sa maintenance en collaboration avec un dev full stack.",
   },
   {
-    id: 2,
+    id: 3,
     name: "NFT",
     img: "./nft.jpg",
     imgcut: "./nftcut.jpg",
@@ -33,7 +33,7 @@ const products = [
     description: `J’ai utilisé Thirdweb pour gérer ce projet web 3.0 et créer le Back-end nécessaire à une application Ethereum, basée sur la blockchain. Ce projet exploite des NFT (au préalable "mintés" dans une collection Thirdweb) connectés à OpenSea.`,
   },
   {
-    id: 3,
+    id: 4,
     name: "Amazon",
     img: "./amazon.jpg",
     imgcut: "./amazoncut.jpg",

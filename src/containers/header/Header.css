@@ -1,4 +1,5 @@
 /* ------------ Css ------------------ */
+
 .portfolio__header {
   display: flex;
   flex-direction: row;
@@ -30,6 +31,7 @@
 }
 
 /* ------------ Highlight on Texte ------------------ */
+
 .container .highlight {
   display: inline-block;
   color: rgb(82, 62, 80);
@@ -38,6 +40,7 @@
   position: relative;
   z-index: 0;
 }
+
 .container .highlight::after {
   position: absolute;
   z-index: -1;
@@ -50,16 +53,19 @@
   background-color: rgb(82, 62, 80);
   transition: all 250ms;
 }
+
 .container .highlight:hover {
   color: white;
   text-shadow: 0px 1px 0px black;
 }
+
 .container .highlight:hover::after {
   height: 105%;
   width: 105%;
 }
 
 /* ------------ Css ------------------ */
+
 .portfolio__header-container-title h2 {
   text-align: center;
   font-family: var(--font-family3);
@@ -93,7 +99,34 @@
   width: 90%;
 }
 
+.portfolio__header-img__mobile {
+  display: none;
+}
+.portfolio__header-desk {
+  visibility: visible;
+  animation: animate 2s infinite ease alternate;
+
+}
+
+@keyframes animate {
+  to {
+    transform: translateY(30px);
+  }
+}
+
+.portfolio__header-blob {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
 /* ------------ Button css ------------------ */
+
 button {
   padding: 1.3em 3em;
   font-size: 12px;
@@ -120,11 +153,9 @@ button:hover {
   transform: translateY(-7px);
 }
 
-
 button:active {
   transform: translateY(-1px);
 }
-
 
 /* ------------ Responsive ------------------ */
 
@@ -146,27 +177,39 @@ button:active {
     font-size: 14px;
   }
 }
+
 @media screen and (max-width: 1000px) {
   .portfolio__header {
     flex-direction: column;
     padding-top: 3rem;
     padding-bottom: 6rem;
   }
-
   .portfolio__header-container {
     margin-bottom: 4rem;
   }
-
   .portfolio__header-container {
     margin-right: 0;
   }
 }
+
 @media screen and (max-width: 700px) {
   .portfolio__header {
     padding-top: 6rem;
   }
   .portfolio__header-container {
     margin-top: 0;
+  }
+  .portfolio__header-image img {
+    width: 90%;
+  }
+  .portfolio__header-blob {
+    display: none;
+  }
+  .portfolio__header-img__mobile {
+    display: block;
+  }
+  .portfolio__header-desk {
+    display: none;
   }
 }
 
@@ -183,26 +226,14 @@ button:active {
   .portfolio__header-container-title {
     margin-bottom: 3rem;
   }
-
-
-
-
   button:hover {
-    background-color: #fff;;
+    background-color: #fff;
     color: #523e50;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+      rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     transform: none;
   }
-  
-  
   button:active {
     transform: none;
   }
 }
-
-
-
-
-
-

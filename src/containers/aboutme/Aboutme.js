@@ -43,7 +43,7 @@ function Aboutme() {
             site web.
           </p>
           <p data-aos="fade-left">
-            Actuellement travaillant en freelance, je serais très heureux de
+            Actuellement en freelance, je serais très heureux de
             discuter avec vous de vos projets ou de belles opportunités
             professionnelles.
           </p>
@@ -56,7 +56,7 @@ function Aboutme() {
               <img src={yapero} alt="yapero" className="pulsate-fwd" />
             </div>
             <div className="portfolio__aboutme-container-yapero-text">
-              <h4>PDG & developpeur Front-end Yapero.</h4>
+              <h4>Fondateur & developpeur Front-end Yapero.</h4>
               <p>
                 Service de livraison d'alcool à domicile disponible depuis 2016
                 à Marseille.{" "}
