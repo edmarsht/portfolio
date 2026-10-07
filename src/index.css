@@ -1,19 +1,127 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Pushster&family=Righteous&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700;900&display=swap');
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("./assets/fonts/SpaceGrotesk-Variable.woff2") format("woff2");
+  font-weight: 500 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
-  --font-family: "Manrope", sans-serif;
-  --font-family1: "Pushster", cursive;
-  --font-family2: "Righteous", cursive;
-  --font-family3: 'Montserrat', sans-serif;
+  /* type */
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-body: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
 
-  --gradient-text: linear-gradient(89.97deg, #e0fff4 1.84%, #f49867 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
+  /* ink: deep graphite base, never pure black */
+  --ink-950: #0a0b0d;
+  --ink-900: #111318;
+  --ink-800: #191c22;
+  --ink-700: #262a32;
+  --ink-600: #383d47;
 
-  --color-bg: ;
-  --color-footer: #031b34;
-  --color-blog: #042c54;
-  --color-text: #81afdd;
-  --color-subtext: #ff8a71;
+  --bone-100: #f5f4f0;
+  --bone-300: #d7d5cd;
+  --bone-500: #9b9b97;
+  --bone-700: #6c6d6d;
+
+  /* single accent: desaturated bronze signal, not AI-purple/blue */
+  --accent-300: #e0b784;
+  --accent-500: #c9975a;
+  --accent-700: #9c7239;
+
+  --line: rgba(245, 244, 240, 0.1);
+  --line-strong: rgba(245, 244, 240, 0.18);
+
+  /* semantic tokens, dark is the committed brand default */
+  --bg: var(--ink-950);
+  --bg-elevated: var(--ink-900);
+  --bg-elevated-2: var(--ink-800);
+  --text-primary: var(--bone-100);
+  --text-secondary: var(--bone-500);
+  --text-tertiary: var(--bone-700);
+  --border: var(--line);
+  --border-strong: var(--line-strong);
+  --accent: var(--accent-500);
+  --accent-soft: var(--accent-300);
+  --on-accent: var(--ink-950);
+  --shadow-color: 0deg 0% 0%;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 18px;
+
+  --container: min(1200px, 100% - 3rem);
+  --section-y: clamp(4.5rem, 9vw, 8rem);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: var(--bone-100);
+    --bg-elevated: #ffffff;
+    --bg-elevated-2: #ece9e1;
+    --text-primary: var(--ink-950);
+    --text-secondary: #4a4d52;
+    --text-tertiary: #6c6d6d;
+    --border: rgba(10, 11, 13, 0.1);
+    --border-strong: rgba(10, 11, 13, 0.18);
+    --accent: var(--accent-700);
+    --accent-soft: var(--accent-500);
+    --on-accent: var(--bone-100);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: var(--font-body);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

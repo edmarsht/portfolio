@@ -1,8 +1,9 @@
-export { default as Footer } from './footer/Footer';
-export { default as Header } from './header/Header';
-export { default as Ocean } from './ocean/Ocean';
-export { default as Aboutme } from './aboutme/Aboutme';
-export { default as Resume } from './resume/Resume';
-export { default as Projet } from './projet/Projet';
-export { default as Contact } from './contact/Contact';
-
+export { default as Footer } from './footer/Footer';
+export { default as Hero } from './hero/Hero';
+export { default as Credentials } from './credentials/Credentials';
+export { default as Aboutme } from './aboutme/Aboutme';
+export { default as Expertise } from './expertise/Expertise';
+export { default as Experience } from './experience/Experience';
+export { default as Ventures } from './ventures/Ventures';
+export { default as Resume } from './resume/Resume';
+export { default as Contact } from './contact/Contact';

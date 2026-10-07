@@ -1,0 +1,77 @@
+.ventures__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.venture {
+  display: grid;
+  grid-template-columns: 96px 1fr auto;
+  align-items: center;
+  gap: clamp(1.25rem, 3vw, 2.5rem);
+  padding: clamp(1.5rem, 3vw, 2.25rem) 0;
+  border-top: 1px solid var(--border);
+  transition: padding-left 0.2s ease;
+}
+
+.ventures__list .venture:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
+.venture:hover {
+  padding-left: 0.5rem;
+}
+
+.venture__logo {
+  width: 72px;
+  height: 72px;
+  border-radius: var(--radius-md);
+  background: var(--bone-100);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem;
+}
+
+.venture__logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.venture__body h3 {
+  font-size: 1.3rem;
+}
+
+.venture__role {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--accent);
+  margin-top: 0.3rem;
+}
+
+.venture__description {
+  margin-top: 0.6rem;
+  font-size: 0.95rem;
+  max-width: 56ch;
+}
+
+.venture__arrow {
+  color: var(--text-tertiary);
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.venture:hover .venture__arrow {
+  color: var(--accent);
+  transform: translate(2px, -2px);
+}
+
+@media (max-width: 700px) {
+  .venture {
+    grid-template-columns: 56px 1fr;
+  }
+
+  .venture__arrow {
+    display: none;
+  }
+}

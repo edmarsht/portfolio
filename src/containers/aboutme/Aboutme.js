@@ -1,82 +1,45 @@
 import React from "react";
 import "./Aboutme.css";
-import edouard2 from "../../assets/edouard2.jpg";
-import yapero from "../../assets/yapero.svg";
+import Reveal from "../../components/reveal/Reveal";
 
 function Aboutme() {
   return (
-    <div className="portfolio__aboutme">
-      <div
-        className="portfolio__aboutme-container section__padding"
-        id="aboutme"
-      >
-        <div
-          className="portfolio__aboutme-container-photo"
-          data-aos="zoom-in-right"
-          data-aos-anchor-placement="bottom-bottom"
-          data-aos-duration="1000"
-        >
-          <img src={edouard2} alt="Edouard Toulet portfolio" />
-        </div>
-        <div className="portfolio__aboutme-container-text">
-          <div
-            className="portfolio__aboutme-line"
-            data-aos="zoom-in"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="center-center"
-          >
-            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-          </div>
+    <section className="about section" id="parcours">
+      <div className="about__inner container">
+        <Reveal as="div" className="about__text">
+          <h2>Du produit à la conformité.</h2>
+          <p>
+            Avant la cybersécurité, j'ai fondé et développé Yapero, un
+            service de livraison d'alcool à Marseille, puis conçu des
+            interfaces web en freelance. Cette expérience de terrain,
+            responsable d'une équipe, d'un P&amp;L et d'un produit, m'a
+            donné un rapport concret au risque bien avant d'en faire mon
+            métier.
+          </p>
+          <p>
+            Depuis 2023, j'accompagne de grands comptes (INA, Orange, RATP,
+            Covéa, Dalkia) sur leur gouvernance de la sécurité, leur analyse
+            de risques et leur continuité d'activité, en tant que consultant
+            chez Niji puis directement au sein de l'INA.
+          </p>
+        </Reveal>
 
-          <h1 data-aos="fade-left">Mon Histoire</h1>
-          <h3 data-aos="fade-left">
-            Développeur Front-end React.js & intégrateur web
-          </h3>
-          <p data-aos="fade-left">
-            Entrepreneur et développeur frontend spécialisé en Javascript ES6 et
-            React.js avec plus de 2 années d'expérience, je m'occupe de la
-            conception de vos projets web jusqu'à la mise en production.
-          </p>
-          <p data-aos="fade-left">
-            Passionné de développement web je suis également très sensible à
-            l' ergonomie , la fluidité et l' expérience utilisateur (UX) d'un
-            site web.
-          </p>
-          <p data-aos="fade-left">
-            Actuellement en freelance, je serais très heureux de
-            discuter avec vous de vos projets ou de belles opportunités
-            professionnelles.
-          </p>
-          <div
-            className="portfolio__aboutme-container-yapero"
-            data-aos="fade-left"
-            data-aos-anchor-placement="bottom-bottom"
-          >
-            <div className="portfolio__aboutme-container-yapero-image">
-              <img src={yapero} alt="yapero" className="pulsate-fwd" />
-            </div>
-            <div className="portfolio__aboutme-container-yapero-text">
-              <h4>Fondateur & developpeur Front-end Yapero.</h4>
-              <p>
-                Service de livraison d'alcool à domicile disponible depuis 2016
-                à Marseille.{" "}
-                <a href="https://yapero.com" target="_blank">
-                  Voir le site
-                </a>{" "}
-                &{" "}
-                <a
-                  href="https://apps.apple.com/fr/app/yapero-livraison-dalcool/id1366384176"
-                  target="_blank"
-                >
-                  {" "}
-                  l'application mobile.
-                </a>
-              </p>
-            </div>
+        <Reveal as="div" className="about__facts" delay={0.1}>
+          <div className="about__fact">
+            <p className="about__fact-value">2017</p>
+            <p className="about__fact-label">Premiers pas d'entrepreneur, avec Yapero</p>
           </div>
-        </div>
+          <div className="about__fact">
+            <p className="about__fact-value">2023</p>
+            <p className="about__fact-label">Bascule vers le conseil en cybersécurité</p>
+          </div>
+          <div className="about__fact">
+            <p className="about__fact-value">2024</p>
+            <p className="about__fact-label">Rejoint l'INA en mission, conformité DORA chez Adélaïde</p>
+          </div>
+        </Reveal>
       </div>
-    </div>
+    </section>
   );
 }
 

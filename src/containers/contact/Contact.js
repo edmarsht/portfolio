@@ -1,133 +1,114 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import "./Contact.css";
-import phone from "../../assets/phone.png";
-import email from "../../assets/email.png";
-import location from "../../assets/location.png";
-import emailjs from "@emailjs/browser";
+import Reveal from "../../components/reveal/Reveal";
+import { Phone, EnvelopeSimple, MapPin } from "@phosphor-icons/react";
+
+const CONTACT_EMAIL = "edtoulet@gmail.com";
 
 function Contact() {
-  const formRef = useRef();
-  const [name, setName] = useState("");
-  const [done, setDone] = useState(false);
+  const [form, setForm] = useState({ name: "", subject: "", email: "", message: "" });
+  const [sent, setSent] = useState(false);
+
+  const handleChange = (field) => (e) =>
+    setForm((prev) => ({ ...prev, [field]: e.target.value }));
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_f8fbxir",
-        "template_gm5vadb",
-        formRef.current,
-        "user_l8s8B8JbKBef0uIaiKcFu"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          setDone(true);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.reset();
+    const subject = form.subject || `Contact depuis le portfolio - ${form.name}`;
+    const body = `${form.message}\n\n${form.name} (${form.email})`;
+    const mailto = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(body)}`;
+
+    window.location.href = mailto;
+    setSent(true);
   };
 
   return (
-    <div className="portfolio__contact contact" id="contact">
-      <div className="bg-contact"></div>
-      <div className="portfolio__contact-container section__padding">
-        <div className="portfolio__contact-container-info">
-          <h1 data-aos="fade-up">Let's discuss.</h1>
-          <div
-            className="portfolio__contact-container-info-item"
-            data-aos="fade-right"
-          >
-            <img src={phone} alt="phone" />
+    <section className="contact section" id="contact">
+      <div className="container contact__inner">
+        <Reveal as="div" className="contact__info">
+          <h2>Discutons de votre projet.</h2>
+          <p className="contact__lead">
+            Mission de conseil, audit ou simple échange sur la gouvernance de
+            la sécurité : je réponds rapidement.
+          </p>
+
+          <div className="contact__item">
+            <Phone size={18} />
             <p>(+33) 06 27 13 57 23</p>
           </div>
-          <div
-            className="portfolio__contact-container-info-item"
-            data-aos="fade-right"
-          >
-            <img src={email} alt="email" />
-            <p>edtoulet@gmail.com</p>
+          <div className="contact__item">
+            <EnvelopeSimple size={18} />
+            <p>{CONTACT_EMAIL}</p>
           </div>
-          <div
-            className="portfolio__contact-container-info-item"
-            data-aos="fade-right"
-          >
-            <img src={location} alt="location" />
+          <div className="contact__item">
+            <MapPin size={18} />
             <p>Paris, 75017</p>
           </div>
-        </div>
-        <div className="portfolio__contact-container-form">
-          <p data-aos="fade-left">
-            <strong> Quelle est votre histoire ?</strong> Discutons ensemble.
-            Toujours disponible pour des beaux projets ou des opportunités
-            professionnelles.
-          </p>
-          <form ref={formRef} onSubmit={handleSubmit}>
-            <div className="form__group field" data-aos="fade-left">
-              <input
-                type="input"
-                className="form__field"
-                placeholder="Name"
-                onChange={(e) => setName(e.target.value)}
-                name="user_name"
-                id="name"
-                autoComplete="off"
-                required
-              />
-              <label htmlFor="name" className="form__label">
-                Prénom
-              </label>
-            </div>
-            <div className="form__group field" data-aos="fade-left">
-              <input
-                type="input"
-                className="form__field"
-                placeholder="Subject"
-                autoComplete="off"
-                name="user_subject"
-                id="subject"
-                required
-              />
-              <label htmlFor="subject" className="form__label">
-                Sujet
-              </label>
-            </div>
-            <div className="form__group field" data-aos="fade-left">
-              <input
-                type="input"
-                className="form__field"
-                placeholder="Email"
-                name="user_email"
-                autoComplete="off"
-                id="email"
-                required
-              />
-              <label htmlFor="email" className="form__label">
-                Email
-              </label>
-            </div>
+        </Reveal>
+
+        <Reveal as="form" delay={0.1} className="contact__form" onSubmit={handleSubmit}>
+          <div className="field">
+            <label htmlFor="name">Nom</label>
+            <input
+              id="name"
+              type="text"
+              value={form.name}
+              onChange={handleChange("name")}
+              autoComplete="name"
+              required
+            />
+          </div>
+
+          <div className="field">
+            <label htmlFor="subject">Sujet</label>
+            <input
+              id="subject"
+              type="text"
+              value={form.subject}
+              onChange={handleChange("subject")}
+              autoComplete="off"
+              required
+            />
+          </div>
+
+          <div className="field">
+            <label htmlFor="email">Votre email</label>
+            <input
+              id="email"
+              type="email"
+              value={form.email}
+              onChange={handleChange("email")}
+              autoComplete="email"
+              required
+            />
+          </div>
+
+          <div className="field">
+            <label htmlFor="message">Message</label>
             <textarea
+              id="message"
               rows="5"
-              name="message"
-              id="other_information"
-              data-aos="fade-left"
-            ></textarea>
-            <button className="button-pink" data-aos="fade-left">
-              Envoyer
-            </button>
-            {done && (
-              <h2 className="contact__message" data-aos="fade-up">
-                Merci {name} ! Je te contact rapidemment.
-              </h2>
-            )}
-          </form>
-        </div>
+              value={form.message}
+              onChange={handleChange("message")}
+              required
+            />
+          </div>
+
+          <button type="submit" className="btn btn--primary">
+            Envoyer
+          </button>
+
+          {sent && (
+            <p className="contact__confirmation" role="status">
+              Votre messagerie va s'ouvrir avec le message pré-rempli, vers {CONTACT_EMAIL}.
+            </p>
+          )}
+        </Reveal>
       </div>
-    </div>
+    </section>
   );
 }
 

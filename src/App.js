@@ -1,17 +1,27 @@
 import "./App.css";
 import { Navbar } from "./components";
-import { Aboutme, Footer, Header, Ocean, Resume, Projet, Contact } from "./containers";
+import {
+  Hero,
+  Credentials,
+  Aboutme,
+  Expertise,
+  Experience,
+  Ventures,
+  Resume,
+  Contact,
+  Footer,
+} from "./containers";
 
 function App() {
   return (
     <div className="App">
-      <div className="gradient__bg">
-        <Navbar />
-        <Header />
-        <Ocean />
-      </div>
+      <Navbar />
+      <Hero />
+      <Credentials />
       <Aboutme />
-      <Projet />
+      <Expertise />
+      <Experience />
+      <Ventures />
       <Resume />
       <Contact />
       <Footer />
