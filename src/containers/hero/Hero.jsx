@@ -57,8 +57,8 @@ function Hero() {
           </h1>
 
           <motion.p className="hero__subtext" {...fadeUp(0.5)}>
-            Gouvernance de la sécurité, gestion des risques et continuité
-            d'activité pour de grands comptes : INA, Orange, RATP, Covéa.
+            J'aide à transformer les exigences de conformité en actions
+            simples et concrètes.
           </motion.p>
           <motion.div className="hero__actions" {...fadeUp(0.6)}>
             <a href="#contact" className="btn btn--primary">
