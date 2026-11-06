@@ -11,7 +11,7 @@ const VENTURES = [
     name: "E&C IMMO",
     role: "Cofondateur, depuis 2024",
     description:
-      "Bail civil et sous-location meublée de courte durée pour propriétaires bailleurs : loyer fixe garanti, entretien professionnel, zéro gestion pour le propriétaire. Plus de 10 logements gérés à Paris.",
+      "Gestion locative clé en main pour propriétaires bailleurs : loyer fixe garanti, entretien professionnel et sous-location meublée de courte durée, sans aucune gestion de leur côté. Plus de 10 logements gérés à Paris.",
     link: "https://ec-immo.fr",
     tight: true,
   },
@@ -20,7 +20,7 @@ const VENTURES = [
     name: "Yapero",
     role: "Fondateur, 2017 - 2020",
     description:
-      "Service de livraison de vins, bières et spiritueux, présent à Marseille, Aix-en-Provence et Reims. Création de l'application et du site de commande, gestion de toute la chaîne de livraison (4 livreurs à temps plein) et des stocks. Entreprise revendue en 2020.",
+      "Livraison de vins, bières et spiritueux en moins de 30 minutes, déployée à Marseille, Aix-en-Provence et Reims. Conception de l'application et du site de commande, pilotage de toute la chaîne logistique (4 livreurs à temps plein) et des stocks, avant la cession de l'entreprise en 2020.",
     link: "https://yapero.com",
   },
 ];
