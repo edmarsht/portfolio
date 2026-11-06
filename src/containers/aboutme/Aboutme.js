@@ -3,10 +3,11 @@ import "./Aboutme.css";
 import Reveal from "../../components/reveal/Reveal";
 
 const TIMELINE = [
-  { period: "2015 - 2023", label: "Avant la cyber : Yapero puis développeur freelance", muted: true },
-  { period: "2023", label: "Entrée dans le conseil en cybersécurité, chez Niji" },
-  { period: "2024", label: "Conformité DORA chez Groupe Adélaïde" },
-  { period: "2024 - aujourd'hui", label: "Rejoint l'INA" },
+  { period: "2015 - 2023", label: "Avant la cyber : fondateur Yapero et missions de développeur freelance", muted: true },
+  { period: "2023", label: "Cybersécurité" },
+  { period: "2024", label: "Orange, audit cyber des JO 2024" },
+  { period: "2024", label: "Conformité DORA, Groupe Adélaïde" },
+  { period: "2024 - aujourd'hui", label: "Adjoint RSSI, en cours" },
 ];
 
 function Aboutme() {
@@ -27,7 +28,7 @@ function Aboutme() {
           {TIMELINE.map((item) => (
             <div
               className={`about__timeline-item${item.muted ? " about__timeline-item--muted" : ""}`}
-              key={item.period}
+              key={item.label}
             >
               <span className="about__timeline-dot" />
               <p className="about__timeline-period">{item.period}</p>
