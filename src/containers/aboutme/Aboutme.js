@@ -3,7 +3,7 @@ import "./Aboutme.css";
 import Reveal from "../../components/reveal/Reveal";
 
 const TIMELINE = [
-  { period: "2015 - 2023", label: "Avant la cyber : fondateur Yapero et missions de développeur freelance", muted: true },
+  { period: "2015 - 2023", label: "Fondateur Yapero et missions de développeur", muted: true },
   { period: "2023", label: "Cybersécurité" },
   { period: "2024", label: "Orange, audit cyber des JO 2024" },
   { period: "2024", label: "Conformité DORA, Groupe Adélaïde" },
