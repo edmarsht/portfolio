@@ -3,7 +3,7 @@ import "./Hero.css";
 import { motion, useReducedMotion } from "framer-motion";
 import portrait from "../../assets/edouard-cutout.png";
 
-const headline = ["Consultant", "cybersécurité."];
+const headline = ["Solutions Engineer", "Cybersécurité", "& GRC"];
 
 const wordContainer = {
   hidden: {},

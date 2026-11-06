@@ -10,7 +10,7 @@ function Footer() {
           <a href="#top" className="footer__brand">
             Edouard Toulet
           </a>
-          <p>Consultant cybersécurité, Paris</p>
+          <p>Solutions Engineer | Cybersécurité &amp; GRC, Paris</p>
         </div>
 
         <nav className="footer__col">
