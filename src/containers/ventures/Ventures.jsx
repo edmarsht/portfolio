@@ -2,7 +2,7 @@ import React from "react";
 import "./Ventures.css";
 import Reveal from "../../components/reveal/Reveal";
 import yaperoLogo from "../../assets/yapero.svg";
-import ecimmoLogo from "../../assets/ecimmo-logo.svg";
+import ecimmoLogo from "../../assets/ecimmo-logo-square.svg";
 import { ArrowUpRight } from "@phosphor-icons/react";
 
 const VENTURES = [
@@ -11,7 +11,7 @@ const VENTURES = [
     name: "E&C IMMO",
     role: "Cofondateur, depuis 2024",
     description:
-      "Bail civil et sous-location meublée de courte durée pour propriétaires bailleurs : loyer fixe garanti, entretien professionnel, zéro gestion pour le propriétaire.",
+      "Bail civil et sous-location meublée de courte durée pour propriétaires bailleurs : loyer fixe garanti, entretien professionnel, zéro gestion pour le propriétaire. Plus de 10 logements gérés à Paris.",
     link: "https://ec-immo.fr",
     tight: true,
   },
@@ -20,7 +20,7 @@ const VENTURES = [
     name: "Yapero",
     role: "Fondateur, 2017 - 2020",
     description:
-      "Service de livraison de vins, bières et spiritueux à Marseille, du soir au matin. Conception du produit, management d'équipe et relation fournisseurs.",
+      "Service de livraison de vins, bières et spiritueux, présent à Marseille, Aix-en-Provence et Reims. Création de l'application et du site de commande, gestion de toute la chaîne de livraison (4 livreurs à temps plein) et des stocks. Entreprise revendue en 2020.",
     link: "https://yapero.com",
   },
 ];
