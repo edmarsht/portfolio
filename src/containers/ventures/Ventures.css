@@ -39,6 +39,10 @@
   object-fit: contain;
 }
 
+.venture__logo--tight {
+  padding: 0.3rem;
+}
+
 .venture__body h3 {
   font-size: 1.3rem;
 }

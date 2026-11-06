@@ -3,31 +3,20 @@ import "./Experience.css";
 import Reveal from "../../components/reveal/Reveal";
 import { motion, useScroll, useSpring, useReducedMotion } from "framer-motion";
 
-const ROLES = [
-  {
-    company: "INA - Institut national de l'audiovisuel",
-    role: "Consultant en cybersécurité",
-    period: "depuis sept. 2024",
-    location: "Paris, hybride",
-    current: true,
-  },
-  {
-    company: "Niji",
-    role: "Consultant en cybersécurité",
-    period: "depuis juin 2023",
-    location: "ESN, missions chez différents clients",
-    missions: [
-      "Groupe Adélaïde, conformité DORA",
-      "Dalkia",
-      "Orange",
-      "Gandi",
-      "RATP",
-      "Covéa",
-      "AFNOR",
-      "MGDIS",
-    ],
-  },
+const COMPANIES = [
+  "INA",
+  "Niji",
+  "Groupe Adélaïde",
+  "Dalkia",
+  "Orange",
+  "Gandi",
+  "RATP",
+  "Covéa",
+  "AFNOR",
+  "MGDIS",
 ];
+
+const PLACEHOLDER = "Mission à détailler : contexte, périmètre et réalisations clés.";
 
 function Experience() {
   const reduce = useReducedMotion();
@@ -51,23 +40,12 @@ function Experience() {
             <motion.span className="experience__trail" style={{ scaleY: progress }} />
           )}
 
-          {ROLES.map((item, i) => (
-            <Reveal as="div" key={item.company} delay={i * 0.08} className="experience__item">
-              <div className="experience__meta">
-                <p className="experience__period">{item.period}</p>
-                {item.current && <span className="experience__badge">en cours</span>}
-              </div>
+          {COMPANIES.map((company, i) => (
+            <Reveal as="div" key={company} delay={i * 0.05} className="experience__item">
+              <span className="experience__index">{String(i + 1).padStart(2, "0")}</span>
               <div className="experience__body">
-                <h3>{item.role}</h3>
-                <p className="experience__company">{item.company}</p>
-                <p className="experience__location">{item.location}</p>
-                {item.missions && (
-                  <ul className="experience__missions">
-                    {item.missions.map((mission) => (
-                      <li key={mission}>{mission}</li>
-                    ))}
-                  </ul>
-                )}
+                <h3>{company}</h3>
+                <p className="experience__placeholder">{PLACEHOLDER}</p>
               </div>
             </Reveal>
           ))}

@@ -7,7 +7,6 @@ function Aboutme() {
     <section className="about section" id="parcours">
       <div className="about__inner container">
         <Reveal as="div" className="about__text">
-          <h2>Du produit à la conformité.</h2>
           <p>
             Avant la cybersécurité, j'ai fondé et développé Yapero, un
             service de livraison d'alcool à Marseille, puis conçu des

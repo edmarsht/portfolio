@@ -4,12 +4,6 @@
   gap: clamp(2.5rem, 6vw, 5rem);
 }
 
-.about__text h2 {
-  font-size: clamp(1.9rem, 3.2vw, 2.6rem);
-  margin-bottom: 1.5rem;
-  max-width: 16ch;
-}
-
 .about__text p {
   font-size: 1.02rem;
   max-width: 56ch;
