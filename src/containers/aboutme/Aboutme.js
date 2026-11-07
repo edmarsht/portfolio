@@ -7,7 +7,7 @@ const TIMELINE = [
   { period: "2015 - 2023", label: "Fondateur Yapero et missions de développeur", muted: true },
   { period: "2023", label: "Conformité DORA sur 4 filiales du Groupe Adélaïde" },
   { period: "2024", label: "Orange, audit cyber des JO 2024" },
-  { period: "2025 - aujourd'hui", label: "Adjoint RSSI chez INA" },
+  { period: "2024 - aujourd'hui", label: "Adjoint RSSI chez INA" },
 ];
 
 const OTHER_CLIENTS = ["Dalkia", "RATP", "Covéa", "Gandi", "AFNOR", "MGDIS"];
