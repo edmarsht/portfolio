@@ -1,6 +1,7 @@
 import React from "react";
 import "./Aboutme.css";
 import Reveal from "../../components/reveal/Reveal";
+import { Buildings } from "@phosphor-icons/react";
 
 const TIMELINE = [
   { period: "2015 - 2023", label: "Fondateur Yapero et missions de développeur", muted: true },
@@ -8,6 +9,8 @@ const TIMELINE = [
   { period: "2024", label: "Orange, audit cyber des JO 2024" },
   { period: "2025 - aujourd'hui", label: "Adjoint RSSI chez INA" },
 ];
+
+const OTHER_CLIENTS = ["Dalkia", "RATP", "Covéa", "Gandi", "AFNOR", "MGDIS"];
 
 function Aboutme() {
   return (
@@ -35,6 +38,21 @@ function Aboutme() {
               <p className="about__timeline-label">{item.label}</p>
             </div>
           ))}
+        </Reveal>
+
+        <Reveal as="div" className="about__more" delay={0.18}>
+          <span className="about__more-icon">
+            <Buildings size={16} weight="bold" />
+          </span>
+          <p className="about__more-text">
+            <span className="about__more-count">+6</span> autres missions
+            menées pour de grands comptes
+          </p>
+          <ul className="about__more-clients">
+            {OTHER_CLIENTS.map((client) => (
+              <li key={client}>{client}</li>
+            ))}
+          </ul>
         </Reveal>
       </div>
     </section>
