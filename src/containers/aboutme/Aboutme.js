@@ -10,7 +10,7 @@ const TIMELINE = [
   { period: "2024 - aujourd'hui", label: "Adjoint RSSI chez INA" },
 ];
 
-const OTHER_CLIENTS = ["Dalkia", "RATP", "Covéa", "Gandi", "AFNOR", "MGDIS"];
+const OTHER_CLIENTS = ["RATP", "Covéa", "Gandi", "AFNOR", "MGDIS"];
 
 function Aboutme() {
   return (
@@ -19,8 +19,8 @@ function Aboutme() {
         <Reveal as="div" className="about__text">
           <p>
             Depuis 2023, j'accompagne de grands comptes (INA, Orange, RATP,
-            Covéa, Dalkia) sur leur gouvernance de la sécurité, leur analyse
-            de risques et leur continuité d'activité, en tant que consultant
+            Covéa) sur leur gouvernance de la sécurité, leur analyse de
+            risques et leur continuité d'activité, en tant que consultant
             chez Niji puis directement au sein de l'INA.
           </p>
         </Reveal>
@@ -45,7 +45,7 @@ function Aboutme() {
             <Buildings size={16} weight="bold" />
           </span>
           <p className="about__more-text">
-            <span className="about__more-count">+6</span> autres missions
+            <span className="about__more-count">+5</span> autres missions
             menées pour de grands comptes
           </p>
           <ul className="about__more-clients">

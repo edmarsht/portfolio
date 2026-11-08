@@ -9,14 +9,13 @@ const COMPANIES = [
   {
     name: "INA",
     summary:
-      "Intégration de la sécurité dès la conception : refonte de la PSSI, analyses de risques EBIOS RM, formalisation d'un PCA/PRA et pilotage d'un programme de sensibilisation auprès de 500 collaborateurs. Sélection d'un prestataire SOC et déploiement d'une solution de GRC.",
+      "En tant qu'adjoint au RSSI, intégration de la sécurité dès la conception : refonte de la PSSI, analyses de risques EBIOS RM, formalisation d'un PCA/PRA et pilotage d'un programme de sensibilisation auprès de 500 collaborateurs. Sélection d'un prestataire SOC et déploiement d'une solution de GRC.",
   },
   {
     name: "Groupe Adélaïde",
     summary:
       "Mise en conformité DORA sur quatre filiales : création d'un framework basé sur le NIST CSF, état des lieux par ateliers, pilotage du plan d'action et suivi des KPI de sécurité jusqu'à la trajectoire de conformité.",
   },
-  { name: "Dalkia", summary: PLACEHOLDER },
   {
     name: "Orange",
     summary:
@@ -31,7 +30,11 @@ const COMPANIES = [
     name: "RATP",
     summary: "Mission d'audit d'un référentiel de conformité interne.",
   },
-  { name: "Covéa", summary: PLACEHOLDER },
+  {
+    name: "Covéa",
+    summary:
+      "Rédaction du rapport annuel des activités cybersécurité, destiné à être présenté à la direction du groupe.",
+  },
   {
     name: "AFNOR",
     summary:
