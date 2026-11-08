@@ -3,20 +3,45 @@ import "./Experience.css";
 import Reveal from "../../components/reveal/Reveal";
 import { motion, useScroll, useSpring, useReducedMotion } from "framer-motion";
 
-const COMPANIES = [
-  "INA",
-  "Niji",
-  "Groupe Adélaïde",
-  "Dalkia",
-  "Orange",
-  "Gandi",
-  "RATP",
-  "Covéa",
-  "AFNOR",
-  "MGDIS",
-];
-
 const PLACEHOLDER = "Mission à détailler : contexte, périmètre et réalisations clés.";
+
+const COMPANIES = [
+  {
+    name: "INA",
+    role: "Consultant GRC",
+    summary:
+      "Intégration de la sécurité dès la conception : refonte de la PSSI, analyses de risques EBIOS RM, formalisation d'un PCA/PRA et pilotage d'un programme de sensibilisation auprès de 500 collaborateurs. Sélection d'un prestataire SOC et déploiement d'une solution de GRC.",
+  },
+  { name: "Niji", role: "Consultant cybersécurité", summary: PLACEHOLDER },
+  {
+    name: "Groupe Adélaïde",
+    role: "Consultant cybersécurité",
+    summary:
+      "Mise en conformité DORA sur quatre filiales : création d'un framework basé sur le NIST CSF, état des lieux par ateliers, pilotage du plan d'action et suivi des KPI de sécurité jusqu'à la trajectoire de conformité.",
+  },
+  { name: "Dalkia", role: "Consultant cybersécurité", summary: PLACEHOLDER },
+  {
+    name: "Orange",
+    role: "Consultant cybersécurité — JO Paris 2024",
+    summary:
+      "Référent cybersécurité sur les Jeux Olympiques de Paris 2024 : animation de 36 ateliers de sensibilisation (600 participants), sécurisation des sites et formation des équipes à l'utilisation des téléphones satellites. RETEX transmis en vue de Los Angeles 2028.",
+  },
+  { name: "Gandi", role: "Consultant cybersécurité", summary: PLACEHOLDER },
+  { name: "RATP", role: "Consultant cybersécurité", summary: PLACEHOLDER },
+  { name: "Covéa", role: "Consultant cybersécurité", summary: PLACEHOLDER },
+  {
+    name: "AFNOR",
+    role: "Consultant cybersécurité",
+    summary:
+      "Conception d'un support de formation sur la qualification SecNumCloud de l'ANSSI, destiné aux clients d'AFNOR.",
+  },
+  {
+    name: "MGDIS",
+    role: "Consultant cybersécurité",
+    summary:
+      "Audit initial dans le cadre de la qualification SecNumCloud (ANSSI) du service SaaS de pilotage édité par MGDIS.",
+  },
+];
 
 function Experience() {
   const reduce = useReducedMotion();
@@ -41,11 +66,20 @@ function Experience() {
           )}
 
           {COMPANIES.map((company, i) => (
-            <Reveal as="div" key={company} delay={i * 0.05} className="experience__item">
+            <Reveal as="div" key={company.name} delay={i * 0.05} className="experience__item">
               <span className="experience__index">{String(i + 1).padStart(2, "0")}</span>
               <div className="experience__body">
-                <h3>{company}</h3>
-                <p className="experience__placeholder">{PLACEHOLDER}</p>
+                <h3>{company.name}</h3>
+                <p className="experience__role">{company.role}</p>
+                <p
+                  className={
+                    company.summary === PLACEHOLDER
+                      ? "experience__placeholder"
+                      : "experience__summary"
+                  }
+                >
+                  {company.summary}
+                </p>
               </div>
             </Reveal>
           ))}
