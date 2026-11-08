@@ -40,13 +40,6 @@
   font-weight: 600;
 }
 
-.experience__role {
-  font-size: 0.82rem;
-  font-family: var(--font-mono);
-  color: var(--accent);
-  margin-top: 0.2rem;
-}
-
 .experience__summary {
   font-size: 0.92rem;
   color: var(--text-secondary, var(--text-tertiary));
